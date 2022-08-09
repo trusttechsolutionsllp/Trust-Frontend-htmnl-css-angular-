@@ -1,0 +1,133 @@
+<section class="advanced-tab section-gap">
+    <div class="container">
+        <!-- Tabs Buttons -->
+        <div class="tab-buttons">
+            <div ngbNav #nav="ngbNav" class="nav nav-tabs" id="nav-tab" role="tablist">
+                <li [ngbNavItem]="1">
+                    <a ngbNavLink>OUR COMPANY</a>
+                    <ng-template ngbNavContent>
+                        <div class="tab-text-block left-image with-left-circle">
+                            <div class="row align-items-center justify-content-center">
+                                <div class="col-lg-6 col-md-10">
+                                    <div class="block-image">
+                                        <img src="assets/img/tab-block.jpg" alt="img">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-10">
+                                    <div class="block-text">
+                                        <h2 class="title">At TrustLNS, we are a team</h2>
+                                        <p>
+                                            Focused on building a brand that thrives to deliver outright results to our partners 
+                                            and grow beyond the benchmarks. On account of the gargantuan of hard work, strict 
+                                            principles, and discipline, we climb the stairs of success by offering premium digital 
+                                            branding and online marketing services to our customers. We have been able to be at 
+                                            the frontline of the best IT solutions and service providers in Dubai, UAE, with the 
+                                            tedious efforts of our multi-disciplined team with proper guidance.
+                                        </p>
+<!--                                        <ul>-->
+<!--                                            <li *ngFor="let item of list">-->
+<!--                                                <i class="fas fa-check"></i>-->
+<!--                                                {{item.text}}-->
+<!--                                            </li>-->
+<!--                                        </ul>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ng-template>
+                </li>
+                <li [ngbNavItem]="2">
+                    <a ngbNavLink>OUR MISSION</a>
+                    <ng-template ngbNavContent>
+                        <div class="tab-text-block right-image with-right-circle">
+                            <div class="row align-items-center justify-content-center">
+                                <div class="col-lg-6 col-md-10 order-2 order-lg-1">
+                                    <div class="block-text">
+                                        <h2 class="title">Our ultimate mission</h2>
+                                        <p>
+                                           is to provide best and fully tested products and solutions for our customers. At every step of our development process, we ensure the product complies with a set of strict quality checks. This is what makes TrustLNS’s services unique in the industry.
+                                        </p>
+<!--                                        <ul>-->
+<!--                                            <li *ngFor="let item of list">-->
+<!--                                                <i class="fas fa-check"></i>-->
+<!--                                                {{item.text}}-->
+<!--                                            </li>-->
+<!--                                        </ul>-->
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-10 order-1 order-lg-2">
+                                    <div class="block-image">
+                                        <img src="assets/img/tab-block.jpg" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ng-template>
+                </li>
+                <li [ngbNavItem]="3">
+                    <a ngbNavLink>OUR VISION</a>
+                    <ng-template ngbNavContent>
+                        <div class="tab-text-block left-image with-left-circle">
+                            <div class="row align-items-center justify-content-center">
+                                <div class="col-lg-6 col-md-10">
+                                    <div class="block-image">
+                                        <img src="assets/img/tab-block.jpg" alt="img">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-10">
+                                    <div class="block-text">
+                                        <h2 class="title">We are the pioneers</h2>
+                                        <p>
+                                            in IT services and digital marketing solutions, our Vision is to progress in our current 
+                                            position in the market with a focus on a strategic path to lasting IT business alignments.
+                                            We focus on delivering innovative solutions with more reliable, innovative, and 
+                                            user-friendly technology to our customers. We believe in working with the accuracy and 
+                                            best quality, exceeding clients' expectations. 
+                                        </p>
+<!--                                        <ul>-->
+<!--                                            <li *ngFor="let item of list">-->
+<!--                                                <i class="fas fa-check"></i>-->
+<!--                                                {{item.text}}-->
+<!--                                            </li>-->
+<!--                                        </ul>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ng-template>
+                </li>
+                <!-- <li [ngbNavItem]="4">
+                    <a ngbNavLink>Team Member</a>
+                    <ng-template ngbNavContent>
+                        <div class="tab-text-block right-image with-right-circle">
+                            <div class="row align-items-center justify-content-center">
+                                <div class="col-lg-6 col-md-10 order-2 order-lg-1">
+                                    <div class="block-text">
+                                        <h2 class="title">Professional Business Guidance Agency</h2>
+                                        <p>
+                                            Sedut perspiciatis unde omnis iste natus error sit voluptat em accusantium
+                                            doloremque laudantium, totam raperiaeaque ipsa quae ab illo inventore
+                                            veritatis et quasi
+                                        </p>
+                                        <ul>
+                                            <li *ngFor="let item of list">
+                                                <i class="fas fa-check"></i>
+                                                {{item.text}}
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-10 order-1 order-lg-2">
+                                    <div class="block-image">
+                                        <img src="assets/img/tab-block.jpg" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ng-template>
+                </li> -->
+            </div>
+            <div [ngbNavOutlet]="nav"></div>
+        </div>
+    </div>
+</section>

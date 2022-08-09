@@ -1,0 +1,348 @@
+[
+    {
+        "id": 1,
+        "icon": "flaticon-chart",
+        "shadowicon": "assets/img/icons/01.png",
+        "banner":"assets/img/banner/Web-Development-Banner.jpg",
+        "img": "assets/img/feature/web1.png",
+        "title": "Web Development",
+        "key": "web-development",
+        "shortdesc": "A good website is the perfect combination of Technology and Creativity",
+        "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+        "sub_block" : [
+            {
+                "title" : "Web Designing",
+                "text":"A good website is the perfect combination of Technology and Creativity"
+            },
+            {
+                "title" : "Web Development",
+                "text":"A good website is the perfect combination of Technology and Creativity"
+            }
+        ],
+        "notes": [
+            "Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem enim ad minima veniam quis nostrum",
+            "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nmolestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+            "But I must explain to you how all this mistaken idea of denouncing pleasure praising pain was born and I will give you complete account of the system expound"
+        ],
+        "htmldata":"<div class='row align-items-center justify-content-center'><div class='col-lg-6'><div class='image text-center mb-40'> <img src='assets/img/details/service-02.png' alt='img'></div></div><div class='col-lg-6'><h3 class='sub-title'>Delivering The Web Experence</h3><p> Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.</p></div></div>",
+        "features":[
+            {
+                "title":"Design and Content Creation",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Web Coding",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Maintenance and Support",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "icon": "flaticon-diagram",
+        "shadowicon": "assets/img/icons/WB_3.png",
+        "banner":"assets/img/banner/Ecommerce-Dev-Background.jpg",
+        "img": "assets/img/feature/EC-1.jpg",
+        "title": "E-commerce Development",
+        "key": "ecommerce-development",
+        "shortdesc": "Crafting an E-commerce platform with unrivalled creativity that values trust",
+        "description": "For the striving entrepreneurs, from fashion shopping to electronics and grocery selling, whatever your commerce objectives, we bring in the best e-commerce platform on the web combining quality and reliability in one. We ensure superior, robust, and scalable online stores that stand the test of time. We constantly communicate with vendors and third-party resources for integrations to work with web development to identify the needs and efficiently deliver new site functionality. We assure excellent customer experience and satisfaction with proper security during account creation, cash transactions, and browsing. We deliver superior performance shopping cart solutions with error-free order management to make every purchase a better experience.",
+        "sub_block" : [
+            {
+                "title" : "E-Commerce Design",
+                "text":"Proven expertise in customized E-commerce designs to create the best customer experience by merging creativity and innovation to find a marketplace."
+            },
+            {
+                "title" : "E-Commerce Development",
+                "text":"Focused to create a more reliable, faster, and secure E-commerce website solution to function, accept payments, and behave properly in response to user actions in line with the industry trends."
+            }
+        ],
+        "notes": [
+            "Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem enim ad minima veniam quis nostrum",
+            "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nmolestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+            "But I must explain to you how all this mistaken idea of denouncing pleasure praising pain was born and I will give you complete account of the system expound"
+        ],
+        "htmldata":"<div class='row align-items-center justify-content-center'><div class='col-lg-6'><div class='image text-center mb-40'> <img src='assets/img/details/EC-2.jpg' alt='img'></div></div><div class='col-lg-6'><h3 class='sub-title'>Choose the perfect E-commerce website that makes selling superbly easy </h3><p>Get rich, out-of-the-box features, and innovative E-commerce solutions that address the unique needs of your business to create masterpiece online stores that stand apart from the competition. By assuring top-notch optimization for superior performance, we create a suitable and effective platform with seamless integration that scale up to meet growing demands without delays.</p></div></div>",
+        "features":[
+            {
+                "title":"E-Commerce Consulting Services",
+                "text":"Achieve your business goals by analysing and evaluating with result-oriented E-commerce consulting services to keep up with the industry trends."
+            },
+            {
+                "title":"E-Commerce Development Services",
+                "text":"Delivering the best E-commerce websites or apps to suit your business requirements, backed by experienced experts to secure a flawless experience."
+            },
+            {
+                "title":"Highly Recommended Platforms",
+                "text":"Trusted by thousands of business enterprises with an emphasis on security compliance and privacy-focused"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "icon": "flaticon-graph-1",
+        "shadowicon": "assets/img/icons/WB_2.png",
+        "banner":"assets/img/banner/App-Dev-Banner.jpg",
+        "img": "assets/img/feature/ad-1.jpg",
+        "title": "App Development",
+        "key": "app-development",
+        "shortdesc": "Fast speed and incredible performance technology to breeze your business",
+        "description": "Our development and management system can get you to the new age of consumer experience to the end-user with a fast, clean, and easy-to-use interface design. Our app development cycles feature several steps including planning, developing, technical details, quality assurance, prototyping, and publishing. The maintenance process is carried out on an on-going basis as updates, new releases and new bugs arise. ",
+        "sub_block" : [
+            {
+                "title" : "App Design",
+                "text":"We include visual elements and interactive elements combining user interface and user experience to inspire and get an insightful app design. No matter how complex the demands of your business are, we make the application simple."
+            },
+            {
+                "title" : "App Development",
+                "text":"We are developing software for small, wireless computing devices, such as smartphones and other hand-held devices. We customize apps or about reinvent the functionalities of an existing one. "
+            }
+        ],
+        "notes": [
+            "Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem enim ad minima veniam quis nostrum",
+            "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nmolestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+            "But I must explain to you how all this mistaken idea of denouncing pleasure praising pain was born and I will give you complete account of the system expound"
+        ],
+        "htmldata":"<div class='row align-items-center justify-content-center'><div class='col-lg-6'><div class='image text-center mb-40'> <img src='assets/img/details/ad-2.jpg' alt='img'></div></div><div class='col-lg-6'><h3 class='sub-title'>For the Mobile age of the global revolution</h3><p>We are focused on the new brave world that will pique the user's needs and get revenue in the new age of the global financial revolution. We successfully deliver top-notch mobile applications with an obsession to lay the roadmap to your right business model. We are a complete solution provider with the right set of tools and platforms to turn your unique app idea into a reality with added convenience and greater bandwidth. With the experience that we have gathered from working on different projects, we understand that every app is different and deserves special and distinct attention. That’s why our team gathers even the minute level of information from you for delivering the most perfect solution.</p></div></div>",
+        "features":[
+            {
+                "title":"IOS And Android Development",
+                "text":"We deliver the most embedded and affordable in a fast and expressive way. We use popular and customizable programming languages when developing for iOS or developing for Android."
+            },
+            {
+                "title":"Marketing And Digital Strategy",
+                "text":"We perform consistent action plans to performed online to reach specific business goals with the most suitable online channel for your business to increase revenue and improve relationships with your audience."
+            },
+            {
+                "title":"Wearable Tech",
+                "text":"We have a list of smart devices that can be comfortably worn on a body by the users for activity trackers, action cameras, smart watches, and many more to analyse and transmit personal data. "
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "icon": "flaticon-diagram",
+        "shadowicon": "assets/img/icons/01.png",
+        "img": "assets/img/feature/01.jpg",
+        "title": "UI/UX Design",
+        "shortdesc": "Join us for consultations",
+        "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+        "notes": [
+            "Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem enim ad minima veniam quis nostrum",
+            "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nmolestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+            "But I must explain to you how all this mistaken idea of denouncing pleasure praising pain was born and I will give you complete account of the system expound"
+        ],
+        "htmldata":"<div class='row align-items-center justify-content-center'><div class='col-lg-6'><div class='image text-center mb-40'> <img src='assets/img/details/service-02.jpg' alt='img'></div></div><div class='col-lg-6'><h3 class='sub-title'>How To Buildup Buisnes</h3><p> Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.</p><ul class='check-list mt-30 mb-40'><li><i class='fas fa-check'></i>Business & Consulting Agency</li><li><i class='fas fa-check'></i>Awards Winning Business Comapny</li><li><i class='fas fa-check'></i>Complete Guide To Mechanical</li><li><i class='fas fa-check'></i>Firebase Authentication & Database</li></ul></div></div>",
+        "features":[
+            {
+                "title":"How To Create A Mobile App In Expo And Firebase",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Smashing Podcast Episode With Ben How ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Learning Resources Challenging Workshops ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Micro-Typography: How To Space Kern ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "icon": "flaticon-diagram",
+        "shadowicon": "assets/img/icons/02.png",
+        "img": "assets/img/feature/02.jpg",
+        "title": "Responsive Website",
+        "shortdesc": "Join us for consultations",
+        "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+        "notes": [
+            "Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem enim ad minima veniam quis nostrum",
+            "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nmolestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+            "But I must explain to you how all this mistaken idea of denouncing pleasure praising pain was born and I will give you complete account of the system expound"
+        ],
+        "htmldata":"<div class='row align-items-center justify-content-center'><div class='col-lg-6'><div class='image text-center mb-40'> <img src='assets/img/details/service-02.jpg' alt='img'></div></div><div class='col-lg-6'><h3 class='sub-title'>How To Buildup Buisnes</h3><p> Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.</p><ul class='check-list mt-30 mb-40'><li><i class='fas fa-check'></i>Business & Consulting Agency</li><li><i class='fas fa-check'></i>Awards Winning Business Comapny</li><li><i class='fas fa-check'></i>Complete Guide To Mechanical</li><li><i class='fas fa-check'></i>Firebase Authentication & Database</li></ul></div></div>",
+        "features":[
+            {
+                "title":"How To Create A Mobile App In Expo And Firebase",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Smashing Podcast Episode With Ben How ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Learning Resources Challenging Workshops ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Micro-Typography: How To Space Kern ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "icon": "flaticon-diagram",
+        "shadowicon": "assets/img/icons/03.png",
+        "img": "assets/img/feature/03.jpg",
+        "title": "Analytics and SEO",
+        "shortdesc": "Join us for consultations",
+        "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+        "notes": [
+            "Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem enim ad minima veniam quis nostrum",
+            "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nmolestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+            "But I must explain to you how all this mistaken idea of denouncing pleasure praising pain was born and I will give you complete account of the system expound"
+        ],
+        "htmldata":"<div class='row align-items-center justify-content-center'><div class='col-lg-6'><div class='image text-center mb-40'> <img src='assets/img/details/service-02.jpg' alt='img'></div></div><div class='col-lg-6'><h3 class='sub-title'>How To Buildup Buisnes</h3><p> Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.</p><ul class='check-list mt-30 mb-40'><li><i class='fas fa-check'></i>Business & Consulting Agency</li><li><i class='fas fa-check'></i>Awards Winning Business Comapny</li><li><i class='fas fa-check'></i>Complete Guide To Mechanical</li><li><i class='fas fa-check'></i>Firebase Authentication & Database</li></ul></div></div>",
+        "features":[
+            {
+                "title":"How To Create A Mobile App In Expo And Firebase",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Smashing Podcast Episode With Ben How ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Learning Resources Challenging Workshops ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            },
+            {
+                "title":"Micro-Typography: How To Space Kern ?",
+                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "icon": "flaticon-graph-1",
+        "shadowicon": "assets/img/icons/SEO-Services.png",
+        "banner":"assets/img/banner/SEO-Banner.jpg",
+        "img": "assets/img/feature/seo_1.jpg",
+        "title": "Seo Services",
+        "key": "seo-services",
+        "shortdesc": "Search Engine Optimization brings you one step closer to your potential customers by improving your digital visibility.",
+        "description": "Our search engine optimization services, strategies, and tactics will increase the organic search visibility of your business and content on google, generating leads, sales, and revenue. Our expert services will aim to improve the online presence of your business in various channels and will grab the attention of potential clients and customers. With the best practices, it will increase web traffic and acquire new customers. ",
+        "sub_block" : [
+            {
+                "title" : "Maximize organic traffic",
+                "text":"Our organic traffic boosting strategies will have a higher conversion rate than a random visitor from a paid search. The targeted users are more likely to trust websites that rank organically, which will usually increase their credibility."
+            },
+            {
+                "title" : "Target Driven SEO Strategies",
+                "text":"We create and implement the most effective target-driven SEO strategies by analysing your target customers and maximizing your organic traffic, magnetizing targeted."
+            }
+        ],
+        "notes": [
+            "Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem enim ad minima veniam quis nostrum",
+            "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nmolestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+            "But I must explain to you how all this mistaken idea of denouncing pleasure praising pain was born and I will give you complete account of the system expound"
+        ],
+        "htmldata":"<div class='row align-items-center justify-content-center'><div class='col-lg-6'><div class='image text-center mb-40'> <img src='assets/img/feature/seo_2.jpg' alt='img'></div></div><div class='col-lg-6'><h3 class='sub-title'>Improve your rankings with SEO</h3><p>With the most modern SEO services and the best digital marketing services, our SEO experts simplify the process for you by designing a successful SEO strategy that fits your goals and budget. We understand that gaining visibility is the key to success and through expert keyword research and SEO refinement, we effectively got you covered. </p></div></div>",
+        "features":[
+            {
+                "title":"On Page Optimization",
+                "text":"Increase the authority of your domain through content creation and earning backlinks from other websites."
+            },
+            {
+                "title":"Off Page Optimization",
+                "text":"Providing the techniques and activities taken outside of the actual website to improve its position in search rankings"
+            },
+            {
+                "title":"Link Building",
+                "text":"We practice acquiring links to your website from other websites to help you rank higher on the search engine results pages"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "icon": "flaticon-graph-1",
+        "shadowicon": "assets/img/icons/Content-Marketing.png",
+        "banner":"assets/img/banner/Content-Marketing-Banner.jpg",
+        "img": "assets/img/feature/cm_1.jpg",
+        "title": "Content Marketing",
+        "key": "content-marketing",
+        "shortdesc": "We design edgy and fresh content—text, image, and videos intended to suit who you are and what your consumer needs.",
+        "description": "Traditional marketing techniques are out-dated and less effective in the modern digital era. Marketing is impossible without great content. Providing truly relevant and useful content that tells your story & information and attracts consumers will care for the business. From blogs, articles, and attractive copies to website content, our skilled and experienced content team develops, writes, edits, and promotes custom content for your business, which is SEO friendly. It is the process of planning, creating, distributing, sharing, and publishing content via channels such as social media, and blogs to help you reach your audience and boost conversions. We design edgy and fresh content—text, images, and videos intended to suit who you are and what your consumer needs.",
+        "sub_block" : [
+            {
+                "title" : "Quality Content",
+                "text":"It's all about telling your story more authentic, engaging, and tailored to your audience. Quality content can target audiences and increase brand awareness, sales, engagement, and loyalty."
+            },
+            {
+                "title" : "Strategized Marketing",
+                "text":"Fuel up your business growth with content marketing for reaching prospective consumers and turning them into customers of their products or services"
+            }
+        ],
+        "notes": [
+            "Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem enim ad minima veniam quis nostrum",
+            "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nmolestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+            "But I must explain to you how all this mistaken idea of denouncing pleasure praising pain was born and I will give you complete account of the system expound"
+        ],
+        "htmldata":"<div class='row align-items-center justify-content-center'><div class='col-lg-6'><div class='image text-center mb-40'> <img src='assets/img/feature/cm_2.jpg' alt='img'></div></div><div class='col-lg-6'><h3 class='sub-title'>Redefine the way you present to your customers</h3><p>We attract, engage, and retain an audience by creating consistent and quality content for your business to ensure that it will follow search engine optimization standards. To drive profitable customer action, we make frequent and consistent content that educates, entertains, or inspires and start to generate more and more momentum until suddenly you’re dominating your field.</p></div></div>",
+        "features":[
+            {
+                "title":"Analyzing",
+                "text":"We revolutionize the potential writing and content marketing with determine the presence of certain words, themes, or concepts that suits your business to rank better on Google"
+            },
+            {
+                "title":"Plan Drafting",
+                "text":"As part of the writing process, we initially outline your core topic for the business keeping your targeted audience in mind. Every rough draft improves upon the previous one and that helps focus ideas into concise, effective content in the final draft"
+            },
+            {
+                "title":"Implementation",
+                "text":"We define your goals and identify your potential customers, map out the strategy and finally adapt to your results to publish a variety of content types that suits your business."
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "icon": "flaticon-graph-1",
+        "shadowicon": "assets/img/icons/Branding.png",
+        "banner":"assets/img/banner/Branding-Banner.jpg",
+        "img": "assets/img/feature/br_1.jpg",
+        "title": "Branding",
+        "key": "branding",
+        "shortdesc": "Since a brand is a connection between an organization and its audience, it must offer both clarity and purpose. ",
+        "description": "A brand is a name, term, design, symbol, or any other feature that identifies one seller’s good or service as distinct from those of other sellers. It is all about an emotional attachment or a feeling that triggers a consumer's mind towards a product or a business. It can be exposed as a name, the logo, the visual identity, or even the message communicated. Our branding ideas and strategies can change how people perceive your brand, it can drive new business and increase brand awareness. We ensure people feel more connected or convinced and make the strategy designed by our experts to help your business or products target audience to quickly identify and experience the brand. ",
+        "sub_block" : [
+            {
+                "title" : "Customized Concepts",
+                "text":"We implement the strategy that truly engages customers or prospective customers by communicating with each as an individual and providing more clarity around the term."
+            },
+            {
+                "title" : "Improved Product Visibility",
+                "text":"We ensure boosting reflects your brand & sales and make your brand gain ample visibility among its competitors. "
+            }
+        ],
+        "notes": [
+            "Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem enim ad minima veniam quis nostrum",
+            "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nmolestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+            "But I must explain to you how all this mistaken idea of denouncing pleasure praising pain was born and I will give you complete account of the system expound"
+        ],
+        "htmldata":"<div class='row align-items-center justify-content-center'><div class='col-lg-6'><div class='image text-center mb-40'> <img src='assets/img/feature/br_2.jpg' alt='img'></div></div><div class='col-lg-6'><h3 class='sub-title'>A story unfolding across the customer touch points</h3><p>Every brand has to live up the standards of excellence. Our unique branding strategy helps you easily differentiate while gradually increasing the intrinsic worth of your brand. We promise to make your brand unique by bringing together like-minded professionals and a collaborative approach.</p></div></div>",
+        "features":[
+            {
+                "title":"Analyzing The Business",
+                "text":"We closely analyse how your brand meets client requirements and identifies how your brand is supporting your marketing and sales efforts."
+            },
+            {
+                "title":"Developing Concepts",
+                "text":"We build concepts incorporating brand strategies and core ideas behind a company's branding that pull together its purpose and goals."
+            },
+            {
+                "title":"Making The Brand Live",
+                "text":"We make your brand live and have the vision to create the finest customer service."
+            }
+        ]
+    }
+   
+]

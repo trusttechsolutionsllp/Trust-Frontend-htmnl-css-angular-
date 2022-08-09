@@ -1,0 +1,30 @@
+<section class="service-section section-gap">
+    <div class="container">
+        <!-- Section Title -->
+        <div class="section-title text-center both-border mb-50">
+            <span class="title-tag">Digital Marketing</span>
+            <h2 class="title">Expertise And Methods</h2>
+            <p>
+                Get the perfect digital marketing services and we offer customized solutions to our diverse range of 
+                happy customers. We combine creative designs, analytics, and insightful ideas to deliver tangible
+                 results with cost-effective and lucrative advertising campaigns. We provide the best digital services 
+                 inclusive of Google ads, SEO, SMM, content marketing, web design and development, and graphic design.
+            </p>
+        </div>
+        <!-- Services Boxes -->
+        <div class="row service-boxes justify-content-center">
+            <div class="col-lg-4 col-sm-6 col-10" *ngFor="let item of service | slice:6:9">
+                <div class="service-box-three">
+                    <div class="icon">
+                        <img [src]="item.shadowicon" [alt]="item.title">
+                    </div>
+                    <h3><a routerLink="/service-details/{{item.key}}">{{item.title}}</a></h3>
+                    <p>{{item.shortdesc}}</p>
+                    <a routerLink="/service-details/{{item.key}}" class="service-link">
+                        <i class="fal fa-long-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

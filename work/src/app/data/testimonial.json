@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "comment": "TrustLNS Services just understood our business requirements and what we were looking for. They have several customers in the same industry, using the system we needed.",
+        "author": [
+            1
+        ]
+    },
+    {
+        "id": 2,
+        "comment": "TrustLNS helped me with my website redesign. Thankfully they didn’t come up with a generic, off-the-rack website. They actually listened to me and designed a website that met our needs. For now, I am quite happy with their work.",
+        "author": [
+            2
+        ]
+    },
+    {
+        "id": 3,
+        "comment": "They are my marketing partners for a few years now. They get my work done on time and well.",
+        "author": [
+            3
+        ]
+    },
+    {
+        "id": 4,
+        "comment": "TrustLNS Services offers affordable and honest IT services. Their engineers we worked with are knowledgeable and flexible. We worked together on system design, user experience design, and execution. They were great at collaborating with our existing team. I would highly recommend working with them on large and small projects.",
+        "author": [
+            4
+        ]
+    },
+    {
+        "id": 5,
+        "comment": "I am new to the whole marketing scene. TrustLNS offered me achievable plans and affordable rate. So far that’s working out for me.",
+        "author": [
+            5
+        ]
+    },
+    {
+        "id": 6,
+        "comment": "We cooperated with TrustLNS for creating mobile application for iOS and Android platform. The approach of TrustLNS’s team was very open, flexible and professional. The project was successfully delivered on time.",
+        "author": [
+            6
+        ]
+    }
+]
