@@ -1,0 +1,34 @@
+@import"bootstrap";
+//variables
+
+body{
+    background: #F4F4F4;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    overflow-x: hidden;
+
+}
+
+.container-banner {
+    padding-right: 0px;
+    padding-left: 0px;
+    .header_top{
+        position: relative;
+        .logo{
+            position: absolute;
+            right: 70px;
+            top: 45px;
+        }
+    }
+    .banner-left{
+        img{
+            width: 100%;
+        }
+    }
+}
+
+
+
+
+
+  
