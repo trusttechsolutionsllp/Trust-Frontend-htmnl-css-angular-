@@ -11093,6 +11093,170 @@ body {
   margin-bottom: 50;
 }
 
+.m_t10 {
+  margin-top: 10;
+}
+
+.m_t11 {
+  margin-top: 11;
+}
+
+.m_t12 {
+  margin-top: 12;
+}
+
+.m_t13 {
+  margin-top: 13;
+}
+
+.m_t14 {
+  margin-top: 14;
+}
+
+.m_t15 {
+  margin-top: 15;
+}
+
+.m_t16 {
+  margin-top: 16;
+}
+
+.m_t17 {
+  margin-top: 17;
+}
+
+.m_t18 {
+  margin-top: 18;
+}
+
+.m_t19 {
+  margin-top: 19;
+}
+
+.m_t20 {
+  margin-top: 20;
+}
+
+.m_t21 {
+  margin-top: 21;
+}
+
+.m_t22 {
+  margin-top: 22;
+}
+
+.m_t23 {
+  margin-top: 23;
+}
+
+.m_t24 {
+  margin-top: 24;
+}
+
+.m_t25 {
+  margin-top: 25;
+}
+
+.m_t26 {
+  margin-top: 26;
+}
+
+.m_t27 {
+  margin-top: 27;
+}
+
+.m_t28 {
+  margin-top: 28;
+}
+
+.m_t29 {
+  margin-top: 29;
+}
+
+.m_t30 {
+  margin-top: 30;
+}
+
+.m_t31 {
+  margin-top: 31;
+}
+
+.m_t32 {
+  margin-top: 32;
+}
+
+.m_t33 {
+  margin-top: 33;
+}
+
+.m_t34 {
+  margin-top: 34;
+}
+
+.m_t35 {
+  margin-top: 35;
+}
+
+.m_t36 {
+  margin-top: 36;
+}
+
+.m_t37 {
+  margin-top: 37;
+}
+
+.m_t38 {
+  margin-top: 38;
+}
+
+.m_t39 {
+  margin-top: 39;
+}
+
+.m_t40 {
+  margin-top: 40;
+}
+
+.m_t41 {
+  margin-top: 41;
+}
+
+.m_t42 {
+  margin-top: 42;
+}
+
+.m_t43 {
+  margin-top: 43;
+}
+
+.m_t44 {
+  margin-top: 44;
+}
+
+.m_t45 {
+  margin-top: 45;
+}
+
+.m_t46 {
+  margin-top: 46;
+}
+
+.m_t47 {
+  margin-top: 47;
+}
+
+.m_t48 {
+  margin-top: 48;
+}
+
+.m_t49 {
+  margin-top: 49;
+}
+
+.m_t50 {
+  margin-top: 50;
+}
+
 .container-fluid-main {
   padding-left: 70px;
   padding-right: 70px;
@@ -11126,11 +11290,133 @@ p {
 
 .form_outer {
   margin-top: -200px;
-  background: #F8F7F3;
+  padding-bottom: 100px;
 }
 .form_outer .form_in {
   background: #fff;
   padding: 25px;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
+}
+.form_outer .form_in label {
+  font-size: 15px;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 10px;
+}
+.form_outer .form_in .fm_inp {
+  width: 100%;
+  height: 48px;
+  border: 1px solid #BBBBBB;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 26px;
+}
+.form_outer .form_in .fm_select {
+  width: 100%;
+  height: 48px;
+  border: 1px solid #BBBBBB;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 26px;
+  -webkit-appearance: auto;
+     -moz-appearance: auto;
+          appearance: auto;
+}
+.form_outer .form_in .intl-tel-input {
+  width: 100%;
+}
+.form_outer .form_in .fm_radio {
+  display: flex;
+  padding-top: 12px;
+}
+.form_outer .form_in .fm_radio label {
+  margin-right: 30px;
+}
+.form_outer .form_in .fm_radio .form-check-input:checked {
+  background-color: #00A54F;
+  border-color: #00A54F;
+}
+.form_outer .form_in .btn_submit {
+  width: 269px;
+  height: 68px;
+  background: #00A54F;
+  border-radius: 8px;
+  border: none;
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+  text-align: left;
+  padding: 0 25px;
+}
+.form_outer .form_in .btn_submit span {
+  float: right;
+  padding-top: 8px;
+}
+.form_outer .tab_outer {
+  margin-top: 105px;
+}
+.form_outer .tab_outer h2, .form_outer .tab_outer .h2 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #1B2A57;
+  line-height: 65px;
+}
+.form_outer .tab_outer .tab_right {
+  padding-left: 100px;
+}
+.form_outer .tab_outer .tab_right .tab-in {
+  background: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+}
+.form_outer .tab_outer .tab_right .tab-content-main th {
+  font-size: 15px;
+  font-weight: 500;
+  color: #1B2A57;
+  text-align: center;
+}
+.form_outer .tab_outer .tab_right .tab-content-main td {
+  font-size: 15px;
+  font-weight: 500;
+  color: #989898;
+  text-align: center;
+}
+.form_outer .tab_outer .tab_right .tab-content-main .red {
+  color: #FF0000;
+  text-align: right;
+}
+.form_outer .tab_outer .tab_right .tab-content-main .green {
+  color: #00A54F;
+  text-align: right;
+}
+.form_outer .tab_outer .tab_right .tab-content-main .text-r {
+  text-align: right;
+}
+
+.nav-pills .nav-link.active {
+  background: none !important;
+  border-bottom: 2px solid #00A54F;
+  color: #00A54F;
+}
+
+.nav-pills .nav-link {
+  border-radius: 0 !important;
+  font-size: 25px;
+  font-weight: 500;
+  color: #989898;
+}
+
+li.nav-item {
+  width: 33%;
+}
+
+.ch_outer {
+  background: url(../../images/shape) no-repeat right bottom;
+  background-size: cover;
 }/*# sourceMappingURL=style.css.map */
