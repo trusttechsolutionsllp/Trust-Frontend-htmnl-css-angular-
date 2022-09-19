@@ -2,28 +2,58 @@
 //variables
 
 body{
-    background: #F4F4F4;
-    font-family: 'Inter', sans-serif;
+    background: #F8F7F3;
+    font-family: 'Poppins', sans-serif;
     font-size: 15px;
     overflow-x: hidden;
 
 }
 
-.container-banner {
-    padding-right: 0px;
-    padding-left: 0px;
-    .header_top{
-        position: relative;
-        .logo{
-            position: absolute;
-            right: 70px;
-            top: 45px;
+@for $i from 10 through 50{
+    .m#{$i} {
+        margin-bottom: #{$i};
+    }
+}
+
+.container-fluid-main{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+p{
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 34px;
+}
+
+.banner_outer{
+    background: url(../../images/islamic_02_web_Banner.jpg) no-repeat;
+    background-size: cover;
+    padding-bottom: 220px;
+    header{
+        margin-top: 20px;
+        margin-bottom: 76px;
+    }
+    h1{
+        font-size: 74px;
+        font-weight: 700;
+        color: #fff;
+        line-height: 84px;
+        span{
+            color: #1BC8FF;
         }
     }
-    .banner-left{
-        img{
-            width: 100%;
-        }
+}
+
+.form_outer{
+    margin-top: -200px;
+    background: #F8F7F3;
+    .form_in{
+        background:#fff;
+        padding: 25px;
+        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.08);
+        border-radius: 10px;
     }
 }
 
