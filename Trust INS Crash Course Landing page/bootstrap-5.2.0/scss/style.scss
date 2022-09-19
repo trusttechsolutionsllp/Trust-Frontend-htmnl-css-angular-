@@ -1,0 +1,430 @@
+@import"bootstrap";
+//variables
+
+body{
+    background: #04112B;
+    font-family: 'Mulish';
+    font-size: 15px;
+
+}
+
+//Font
+
+/* mulish-200 - latin */
+@font-face {
+    font-family: 'Mulish';
+    src: url('../../fonts/Mulish-Black.woff2') format('woff2'),
+        url('../../fonts/Mulish-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../../fonts/Mulish-BlackItalic.woff2') format('woff2'),
+        url('../../fonts/Mulish-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../../fonts/Mulish-Bold.woff2') format('woff2'),
+        url('../../fonts/Mulish-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../../fonts/Mulish-ExtraBold.woff2') format('woff2'),
+        url('../../fonts/Mulish-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../../fonts/Mulish-ExtraLight.woff2') format('woff2'),
+        url('../../fonts/Mulish-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../../fonts/Mulish-BoldItalic.woff2') format('woff2'),
+        url('../../fonts/Mulish-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../../fonts/Mulish-ExtraBoldItalic.woff2') format('woff2'),
+        url('../../fonts/Mulish-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../../fonts/Mulish-ExtraLightItalic.woff2') format('woff2'),
+        url('../../fonts/Mulish-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../../fonts/Mulish-LightItalic.woff2') format('woff2'),
+        url('../../fonts/Mulish-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../../fonts/Mulish-MediumItalic.woff2') format('woff2'),
+        url('../../fonts/Mulish-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../../fonts/Mulish-Italic.woff2') format('woff2'),
+        url('../../fonts/Mulish-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../../fonts/Mulish-Light.woff2') format('woff2'),
+        url('../../fonts/Mulish-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../../fonts/Mulish-Medium.woff2') format('woff2'),
+        url('../../fonts/Mulish-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../../fonts/Mulish-Regular.woff2') format('woff2'),
+        url('../../fonts/Mulish-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../../fonts/Mulish-SemiBold.woff2') format('woff2'),
+        url('../../fonts/Mulish-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../../fonts/Mulish-SemiBoldItalic.woff2') format('woff2'),
+        url('../../fonts/Mulish-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Fonde - Regular */
+
+@font-face {
+    font-family: 'fonde';
+    src: url('../../fonts/fonde/fonde.woff2') format('woff2'),
+        url('../../fonts/fonde/fonde.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+//Font End
+
+@for $i from 10 through 50{
+    .m#{$i} {
+        margin-bottom: #{$i};
+    }
+}
+
+.link{
+    background: #00A54F;
+    font-family: 'Mulish';
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    &:hover{
+        background: #1A2B36;
+        color: #fff;
+    }
+}
+
+.head-1 {
+    position: absolute;
+    left: 10%;
+    top: -1px;
+}
+
+header{
+    .navbar-expand-lg{
+        margin-top:0px;
+            .nav-item{
+                font-family: 'Mulish';
+                font-size: 15px;
+                font-weight: 400;
+                a.nav-link{
+                    color: #969696!important;
+                    padding: 0 25px;
+                    &:hover{
+                        color: #fff!important;
+                    }
+                }
+            }
+    }
+    .navbar-collapse{
+        flex-grow: inherit!important;
+    }
+}
+
+//stylr Hero
+
+
+
+.hero {
+    position: relative;
+    height: 90vh;
+    background-position: 0% 0%;
+    overflow: hidden;
+  }
+  
+  .hero__fore {
+    position: absolute;
+    height: 45%;
+    max-height: 300px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: 3;
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      object-fit:cover;
+      object-position: top center;
+    }
+  }
+  
+  .hero-bg {
+    position: absolute;
+    top: 10vh;
+    z-index: 1;
+    width: 100%;
+    
+    h1 {
+      display: block;
+      font-family: 'fonde';
+      font-size: 100px;
+      font-weight: 400;
+      letter-spacing: -.05em;
+      width: 100%;
+      color: white;
+      opacity: 1;
+      .head-1{
+        display: contents;
+      }
+      .head-2{
+        font-size: 80px;
+      }
+    }
+
+    h2 {
+        display: block;
+        font-family: 'fonde';
+        font-size: 60px;
+        font-weight: 400;
+        letter-spacing: -.05em;
+        width: 100%;
+        color: white;
+        opacity: 1;
+      }
+    
+    .hero_shape{
+        margin-top:100px;
+        margin-left:100px;
+    }
+  }
+  
+  .intro {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #8FBBC5;
+    color: #1A2B36;
+    
+    h2 {
+      text-align: center;
+      font-size: 42px;
+      margin-bottom: 60px;
+      max-width: 520px;
+    }
+    
+    p {
+      text-align: center;
+      font-size: 20px;
+      max-width: 520px;
+    }
+   
+  }
+
+  .parallaxbg-1 {
+    position: absolute;
+    right: -88px;
+    bottom: -10%;
+    z-index: -1;
+  }
+
+  .parallaxline-1 {
+    position: absolute;
+    left: -30px;
+    top: 9%;
+    z-index: 1;
+  }
+
+  .about-left {
+        margin-top: -300px;
+  }
+
+  .about{
+    .head-h2{
+        font-family: 'fonde';
+        font-size: 55px;
+        font-weight: 400;
+        color: #fff;
+    }
+  }
+
+  .p-1{
+    font-family: 'Mulish';
+    font-size: 17px;
+    font-weight: 400;
+    color: #969696;
+    line-height:35px;
+}
+  .hero_shape_2 {
+    margin-top: -62px;
+    margin-left: 374px;
+  }
+
+  .learn{
+    margin-top: 250px;
+  }
+
+  .hero_shape_3 {
+    position: absolute;
+    top: -105px;
+    left: -158px;
+}
+
+.hero_shape_4 {
+    position: absolute;
+    top: -105px;
+    right: 0;
+}
+
+.hero_shape_5{
+    position: absolute;
+    bottom: 136px;
+    left: -100px;
+}
+
+.learn_right {
+    margin-top: 100px;
+}
+
+.lean_head {
+    position: absolute;
+    height: 30vh;
+    width: 320px;
+}
+
+.hero-2 {
+    position: relative;
+    height: 90vh;
+    background-position: 0% 0%;
+    overflow: hidden;
+  }
+  
+  .hero__fore_2 {
+    position: absolute;
+    height: 45%;
+    max-height: 300px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: 3;
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      object-fit:cover;
+      object-position: top center;
+    }
+  }
+  
+  .hero-bg-2 {
+    position: absolute;
+    top: 10vh;
+    z-index: 1;
+    width: 100%;
+    
+    h2 {
+      display: block;
+      font-family: 'fonde';
+      font-size: 60px;
+      font-weight: 400;
+      letter-spacing: -.05em;
+      width: 100%;
+      color: white;
+      opacity: 1;
+    }
+  }
+
+  
