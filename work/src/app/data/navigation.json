@@ -68,17 +68,12 @@
                 "id": 32,
                 "link": "/service-digital-marketing",
                 "linkText": "Digital Marketing Services"
-            },
-            {
-                "id": 33,
-                "link": "/mt4-essentials",
-                "linkText": "Mt4 Essentials"
             }
         ]
     },
     {
         "id": 4,
-        "link": "/blog-standard",
+        "link": "/blog",
         "linkText": "Blog"
     },
     {

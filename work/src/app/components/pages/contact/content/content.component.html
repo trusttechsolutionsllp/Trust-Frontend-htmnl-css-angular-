@@ -9,19 +9,18 @@
                 </div>
                 <div class="col-lg-6 col-md-10 order-1 order-lg-2">
                     <div class="contact-info-content">
-                        <div class="section-title left-border mb-40">
-                            <span class="title-tag">Get In Touch</span>
-                            <h2 class="title">Need Any Help For Business & Consulting</h2>
+                        <div class="section-title left-border">
+                            <span class="title-tag">Stay Connected</span>
+                            <h2 class="title">We are happy to help!</h2>
                         </div>
                         <p>
-                            But I must explain to you how all this mistaken idea of denouncing pleasure and praising
-                            pain was
+                            Drop us a line or feel free to contact if need any further assistance
                         </p>
                         <ul>
                             <li class="phone">
                                 <a href="tel:+97143779750"><i class="far fa-phone"></i> +971 4 377 9750</a>
                             </li>
-                            <li><i class="far fa-envelope-open"></i><a href="mailto:support@icmbservices.ae">support@icmbservices.ae</a></li>
+                            <li><i class="far fa-envelope-open"></i><a href="mailto:support@trustlns.ae">support@trustlns.ae</a></li>
                             <li><i class="far fa-map-marker-alt"></i>TrustLNS Services,<br> 7th Floor, Al Saqr Business Tower<br>  Dubai, UAE.</li>
                         </ul>
                     </div>
@@ -32,36 +31,54 @@
             <div class="row no-gutters justify-content-center">
                 <div class="col-10">
                     <div class="section-title text-center mb-40">
-                        <h2 class="title">Don’t Hesited To Contact Us</h2>
+                        <h2 class="title">Get in touch with us</h2>
                     </div>
-                    <form (submit)="sendEmail($event)">
+                    <!-- <form (submit)="sendEmail($event)"> -->
+                    <!-- <form [formGroup]="contactForm" novalidate> -->
+                    <!-- <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" novalidate> -->
+                    <form [formGroup]="contactForm" (ngSubmit)="onSubmit(contactForm.value)" novalidate>
                         <div class="row">
                             <div class="col-lg-4">
                                 <div class="input-group mb-30">
-                                    <input type="text" placeholder="Your Full Name" name="from_name" required>
+                                    <input type="text" placeholder="Your Full Name" name="from_name" id="from_name" formControlName="from_name" required>
                                     <span class="icon"><i class="far fa-user-circle"></i></span>
+                                    <span *ngIf="submitted && contactForm.controls.from_name.errors?.required">Please enter a valid name</span>
+                                    <!-- <div *ngIf="from_name.invalid">Name is invalid</div> -->
                                 </div>
                             </div>
                             <div class="col-lg-4">
                                 <div class="input-group mb-30">
-                                    <input type="email" placeholder="Your Email Address" name="to_email" required>
+                                    <input type="email" placeholder="Your Email Address" name="to_email" id="to_email" formControlName="to_email" required>
                                     <span class="icon"><i class="far fa-envelope-open"></i></span>
+                                    <span *ngIf="submitted && contactForm.controls.to_email.errors?.required">Please enter a valid email</span>
                                 </div>
                             </div>
                             <div class="col-lg-4">
                                 <div class="input-group mb-30">
-                                    <input type="text" placeholder="Your Phone" name="to_phone" required>
+                                    <input type="text" placeholder="Your Phone" (keypress)="keyPressNumbers($event)" name="to_phone" id="to_phone" formControlName="to_phone" required>
                                     <span class="icon"><i class="far fa-phone"></i></span>
+                                    <span *ngIf="submitted && contactForm.controls.to_phone.errors?.required">Please enter a valid contact</span>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="input-group textarea mb-30">
-                                    <textarea placeholder="Write Message" name="message_html"></textarea>
+                                    <textarea placeholder="Write Message" name="message_html" id="message_html" formControlName="message_html" required></textarea>
                                     <span class="icon"><i class="far fa-pencil"></i></span>
+                                    <span *ngIf="submitted && contactForm.controls.message_html.errors?.required">Please enter a valid message</span>
                                 </div>
                             </div>
                             <div class="col-12 text-center">
+                                <!-- <button type="submit" [disabled]="!contactForm.valid" class="main-btn">Send Message</button> 
+                                <button type="submit" class="main-btn" [disabled]="!contactForm.valid" (click)="setValue()">Send Message</button>-->
                                 <button type="submit" class="main-btn">Send Message</button>
+                            </div>
+                            <div class="row" *ngIf="showMsg">
+                                <div class="col-xs-12 quote-success">
+                                    <p></p>
+                                    <p class="alert alert-success">
+                                        {{successMsg}}
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </form>

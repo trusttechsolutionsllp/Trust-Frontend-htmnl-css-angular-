@@ -7,11 +7,11 @@ import { PortfolioComponent } from './portfolio.component';
 import { SharedModule } from '../../shared/shared.module';
 import { ContentComponent } from './content/content.component';
 import { ItemComponent } from './item/item.component';
-import { ContactComponent } from './contact/contact.component';
+// import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
-  declarations: [PortfolioComponent, ContentComponent, ItemComponent, ContactComponent],
+  declarations: [PortfolioComponent, ContentComponent, ItemComponent],
   imports: [
     CommonModule,
     PortfolioRoutingModule,

@@ -8,15 +8,15 @@
         "title": "Web Development",
         "key": "web-development",
         "shortdesc": "A good website is the perfect combination of Technology and Creativity",
-        "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+        "description": "Take your business to the next level with stunning website designs that drive traffic to accomplish your marketing objectives. We create and modify your website into an effective way to engage with your customers and transform your brand into a visual story to perform high in the market. We collaborate with our customers to plan, execute and focus on how they can create a good user experience for site visitors to gain useful information, understand what you have to offer, and build a great relationship with your company. The developing team will coordinate with the content writing team to manage and upgrade the content management system. We are always focused on maintaining & managing security and offering round-the-clock web support whenever an issue arises. We create a good user experience that captures your brand identity and we have a track record to prove it.",
         "sub_block" : [
             {
                 "title" : "Web Designing",
-                "text":"A good website is the perfect combination of Technology and Creativity"
+                "text":"The web designers focus on the visuals of a website. We build out your creative vision with animation and interactive elements, then scale it for different sizes or audiences with responsive and dynamic workflows. With efficiency as our key, we make your website organized and informative to become trustworthy and capable of delivering top-notch products and services."
             },
             {
                 "title" : "Web Development",
-                "text":"A good website is the perfect combination of Technology and Creativity"
+                "text":"The web developers work on bringing those visuals to life. We create or implement designs demanded by a client and ensure it functioned properly and performed in ways that allowed for a great user experience. With expert level of knowledge on various programming languages and coding, ensuring site structure follows SEO best practices to perform well in the market."
             }
         ],
         "notes": [
@@ -24,19 +24,19 @@
             "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nmolestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
             "But I must explain to you how all this mistaken idea of denouncing pleasure praising pain was born and I will give you complete account of the system expound"
         ],
-        "htmldata":"<div class='row align-items-center justify-content-center'><div class='col-lg-6'><div class='image text-center mb-40'> <img src='assets/img/details/service-02.png' alt='img'></div></div><div class='col-lg-6'><h3 class='sub-title'>Delivering The Web Experence</h3><p> Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.</p></div></div>",
+        "htmldata":"<div class='row align-items-center justify-content-center'><div class='col-lg-6'><div class='image text-center mb-40'> <img src='assets/img/details/service-02.png' alt='img'></div></div><div class='col-lg-6'><h3 class='sub-title'>Standout designs to stand out from the competitions</h3><p>Crafting the customized revenue-driving SEO strategy tailored specifically for your business with your unique company needs & goals that are designed for different devices and the layout is practical and easy to follow.</p></div></div>",
         "features":[
             {
                 "title":"Design and Content Creation",
-                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+                "text":"Content is the most important part that gives meaning to the website. It explains the site and answers all the potential answers from customers. We create the content that tells your brand story to end users and act as the key to your website's success."
             },
             {
                 "title":"Web Coding",
-                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+                "text":"We create a visually interesting home page and user-friendly design and dynamic web applications with the best programming languages that help to integrate essential features with lesser effort. "
             },
             {
                 "title":"Maintenance and Support",
-                "text":"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some"
+                "text":"When you try maximizing your return on investment and getting the most out of your website, you need to perform regular website maintenance. We are the professionals and we help you with it. Now you can focus on growing your business and worry less about maintaining your website. "
             }
         ]
     },
@@ -229,7 +229,7 @@
         "img": "assets/img/feature/seo_1.jpg",
         "title": "Seo Services",
         "key": "seo-services",
-        "shortdesc": "Search Engine Optimization brings you one step closer to your potential customers by improving your digital visibility.",
+        "shortdesc": "We help you optimize your outreach with quality traffic to your website through our SEO expertise.",
         "description": "Our search engine optimization services, strategies, and tactics will increase the organic search visibility of your business and content on google, generating leads, sales, and revenue. Our expert services will aim to improve the online presence of your business in various channels and will grab the attention of potential clients and customers. With the best practices, it will increase web traffic and acquire new customers. ",
         "sub_block" : [
             {
@@ -270,7 +270,7 @@
         "img": "assets/img/feature/cm_1.jpg",
         "title": "Content Marketing",
         "key": "content-marketing",
-        "shortdesc": "We design edgy and fresh content—text, image, and videos intended to suit who you are and what your consumer needs.",
+        "shortdesc": "It's all about creating and distributing a valuable, relevant, and consistent content to attract the audience",
         "description": "Traditional marketing techniques are out-dated and less effective in the modern digital era. Marketing is impossible without great content. Providing truly relevant and useful content that tells your story & information and attracts consumers will care for the business. From blogs, articles, and attractive copies to website content, our skilled and experienced content team develops, writes, edits, and promotes custom content for your business, which is SEO friendly. It is the process of planning, creating, distributing, sharing, and publishing content via channels such as social media, and blogs to help you reach your audience and boost conversions. We design edgy and fresh content—text, images, and videos intended to suit who you are and what your consumer needs.",
         "sub_block" : [
             {
@@ -311,7 +311,7 @@
         "img": "assets/img/feature/br_1.jpg",
         "title": "Branding",
         "key": "branding",
-        "shortdesc": "Since a brand is a connection between an organization and its audience, it must offer both clarity and purpose. ",
+        "shortdesc": "We create a distinct identity for your business to dominate your market that sets you apart from competitors",
         "description": "A brand is a name, term, design, symbol, or any other feature that identifies one seller’s good or service as distinct from those of other sellers. It is all about an emotional attachment or a feeling that triggers a consumer's mind towards a product or a business. It can be exposed as a name, the logo, the visual identity, or even the message communicated. Our branding ideas and strategies can change how people perceive your brand, it can drive new business and increase brand awareness. We ensure people feel more connected or convinced and make the strategy designed by our experts to help your business or products target audience to quickly identify and experience the brand. ",
         "sub_block" : [
             {

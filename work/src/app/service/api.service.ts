@@ -1,0 +1,75 @@
+import { Injectable } from '@angular/core';
+// import { HttpClient, HttpErrorResponse, HttpParams } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
+
+import { Observable, throwError } from 'rxjs';
+// import { map, catchError } from 'rxjs/operators';
+import { catchError, retry } from 'rxjs/operators';
+import { Post } from './post';
+import { PostCategories } from './post-categories';
+import { PostDetail } from './post-detail';
+import { PostComments } from './post-comments';
+
+import { environment } from '../../environments/environment';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class ApiService {
+
+  public firstPage: string = "";
+  public prevPage: string = "";
+  public nextPage: string = "";
+  public lastPage: string = "";
+
+  PHP_API_SERVER = environment.apiUrl;
+
+  constructor(private httpClient: HttpClient) { }
+
+  readPosts(): Observable<Post[]> {
+    return this.httpClient.get<Post[]>(`${this.PHP_API_SERVER}blog.php`);
+  }
+
+  getLatestPosts(): Observable<Post[]> {
+    return this.httpClient.get<Post[]>(`${this.PHP_API_SERVER}blog.php?limit=recent`);
+  }
+
+  public getPostDetails(name: string): Observable<Post[]> {
+    return this.httpClient.get<Post[]>(`${this.PHP_API_SERVER}blog.php?name=${name}`);
+  }
+
+  public getPostByName(postname: string) {
+    // console.log('from apiservice = '+postname);
+    return this.httpClient.get<PostDetail[]>(`${this.PHP_API_SERVER}blog-detail.php?postname=`+postname);
+  }
+
+  public getCommentsByPostID(postid: number) {
+    return this.httpClient.get<PostComments[]>(`${this.PHP_API_SERVER}blog-comments.php?bid=`+postid);
+  }
+
+  public getPostCategories(): Observable<PostCategories[]> {
+    return this.httpClient.get<PostCategories[]>(`${this.PHP_API_SERVER}blog-categories.php`);
+  }
+
+  public getPostByCategory(category: string) {
+    // console.log('from category apiservice = '+category);
+    return this.httpClient.get<Post[]>(`${this.PHP_API_SERVER}blog.php?category=`+category);
+  }
+
+  // private handleError(error: HttpErrorResponse) {
+  //   console.log(error);
+  //   // return an observable with a user friendly message
+  //   return throwError('Error! something went wrong.');
+  // }
+
+  public getPostData(postname: string) {
+    // let post: Post[];
+    // console.log('posts---api service');
+    // console.log(this.PHP_API_SERVER);
+    // return this.httpClient.get<Post[]>('${this.PHP_API_SERVER}/blog.php');
+    
+    // let post: Post[] = this.readPosts();
+    // return post.find(p => p.link_url == postname);
+  }
+
+}

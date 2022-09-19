@@ -5,7 +5,7 @@
                 <!-- Blog loop(Standard) -->
                 <div class="blog-loop standard-blog row">
                     <!-- Single Post -->
-                    <div class="col-12" *ngFor="let item of blogpost | paginate: { itemsPerPage: 2, currentPage: page }">
+                    <div class="col-12" *ngFor="let item of posts | paginate: { itemsPerPage: 2, currentPage: page }">
                         <div class="single-post-box">
                             <div class="post-thumb">
                                 <img [src]="item.image" class="w-100" [alt]="item.title">
@@ -13,9 +13,9 @@
                             <div class="post-meta">
                                 <ul>
                                     <li><i class="far fa-user"></i>
-                                        <a routerLink="/blog/author/{{author.id}}" *ngFor="let author of getAuthor(item.author)">{{author.name}}</a>
+                                        <!-- <a routerLink="/blog/author/{{author.id}}" *ngFor="let author of getAuthor(item.author)">{{item.category_name}}</a> -->{{item.category_name}}
                                     </li>
-                                    <li><i class="far fa-calendar-alt"></i><a href="#">{{item.postdate}}</a></li>
+                                    <li><i class="far fa-calendar-alt"></i><a href="#">{{item.publish_date}}</a></li>
                                     <li><i class="far fa-comments"></i><a href="#">Comments ({{item.reviews.length}})</a></li>
                                 </ul>
                             </div>

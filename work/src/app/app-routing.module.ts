@@ -13,19 +13,35 @@ const routes: Routes = [
   { path: 'careers', loadChildren: () => import('./components/pages/careers/careers.module').then(m => m.CareersModule), data: { breadcrumb: 'Careers' } },
   { path: 'faqs', loadChildren: () => import('./components/pages/faqs/faqs.module').then(m => m.FaqsModule), data: { breadcrumb: "FAQ's" } },
   // Services
-  //{ path: 'services', loadChildren: () => import('./components/pages/services/services.module').then(m => m.ServicesModule), data: { breadcrumb: 'Services' } },
+  // { path: 'services', loadChildren: () => import('./components/pages/services/services.module').then(m => m.ServicesModule), data: { breadcrumb: 'Services' } },
   { path: 'services-it', loadChildren: () => import('./components/pages/services-v2/services-v2.module').then(m => m.ServicesV2Module), data: { breadcrumb: 'IT Services' } },
   { path: 'service-digital-marketing', loadChildren: () => import('./components/pages/service-digital-marketing/service-digital-marketing.module').then(m => m.ServiceDigitalMarketingModule), data: { breadcrumb: 'Digital Marketing' } },
   { path: 'mt4-essentials', loadChildren: () => import('./components/pages/mt4-essentials/mt4-essentials.module').then(m => m.Mt4EssentialsModule), data: { breadcrumb: 'Mt4 Essentials' } },
   { path: 'service-details/:key', loadChildren: () => import('./components/pages/service-details/service-details.module').then(m => m.ServiceDetailsModule), data: { breadcrumb: 'Services' } },
+  // { path: 'service-details/ecommerce-development', loadChildren: () => import('./components/pages/ecommerce-development/ecommerce-development.module').then(m => m.EcommerceDevelopmentModule), data: { breadcrumb: 'Ecommerce Development' } },
+  // { path: 'service-details/app-development', loadChildren: () => import('./components/pages/app-development/app-development.module').then(m => m.AppDevelopmentModule), data: { breadcrumb: 'App Development' } },
+
+  { path: 'refund-policy', loadChildren: () => import('./components/pages/refund-policy/refund-policy.module').then(m => m.RefundPolicyModule), data: { breadcrumb: 'Refund Policy' } },
+  { path: 'privacy-policy', loadChildren: () => import('./components/pages/privacy-policy/privacy-policy.module').then(m => m.PrivacyPolicyModule), data: { breadcrumb: 'Privacy Policy' } },
+  { path: 'terms-conditions', loadChildren: () => import('./components/pages/terms-conditions/terms-conditions.module').then(m => m.TermsConditionsModule), data: { breadcrumb: 'Terms and Conditions' } },
+
+  // { path: 'mt4-essentials', loadChildren: () => import('./components/pages/mt4-essentials/mt4-essentials.module').then(m => m.Mt4EssentialsModule), data: { breadcrumb: 'Mt4 Essentials' } },
+  // { path: 'service-details/:key', loadChildren: () => import('./components/pages/service-details/service-details.module').then(m => m.ServiceDetailsModule), data: { breadcrumb: 'Services' } },
+
+// import { RefundPolicyComponent } from './components/pages/refund-policy/refund-policy.component';
+// import { TermsConditionsComponent } from './components/pages/terms-conditions/terms-conditions.component';
+// import { PrivacyPolicyComponent } from './components/pages/privacy-policy/privacy-policy.component';
 
   // Blog
   { path: 'blog/cat/:catId', loadChildren: () => import('./components/pages/blog-grid/blog-grid.module').then(m => m.BlogGridModule), data: { breadcrumb: 'Blog Grid' } },
   { path: 'blog/tag/:tagId', loadChildren: () => import('./components/pages/blog-grid/blog-grid.module').then(m => m.BlogGridModule), data: { breadcrumb: 'Blog Grid' } },
   { path: 'blog/author/:authorId', loadChildren: () => import('./components/pages/blog-grid/blog-grid.module').then(m => m.BlogGridModule), data: { breadcrumb: 'Blog Grid' } },
-  { path: 'blog-grid', loadChildren: () => import('./components/pages/blog-grid/blog-grid.module').then(m => m.BlogGridModule), data: { breadcrumb: 'Blog Grid' } },
-  { path: 'blog-standard', loadChildren: () => import('./components/pages/blog-standard/blog-standard.module').then(m => m.BlogStandardModule), data: { breadcrumb: 'Blog' } },
-  { path: 'blog-details/:id', loadChildren: () => import('./components/pages/blog-details/blog-details.module').then(m => m.BlogDetailsModule), data: { breadcrumb: 'Our Blog' } },
+  // { path: 'blog-grid', loadChildren: () => import('./components/pages/blog-grid/blog-grid.module').then(m => m.BlogGridModule), data: { breadcrumb: 'Blog Grid' } },
+
+  { path: 'blog', loadChildren: () => import('./components/pages/blog-standard/blog-standard.module').then(m => m.BlogStandardModule), data: { breadcrumb: 'Blog' } },
+  { path: 'blog/category/:category_name', loadChildren: () => import('./components/pages/blog-standard/blog-standard.module').then(m => m.BlogStandardModule), data: { breadcrumb: 'Blog' } },
+
+  { path: 'blog-detail/:link_url', loadChildren: () => import('./components/pages/blog-details/blog-details.module').then(m => m.BlogDetailsModule), data: { breadcrumb: 'Our Blog' } },
   // Portfolio
   { path: 'portfolio', loadChildren: () => import('./components/pages/portfolio/portfolio.module').then(m => m.PortfolioModule), data: { breadcrumb: 'Clients' } },
   { path: 'portfolio-v2', loadChildren: () => import('./components/pages/portfolio-v2/portfolio-v2.module').then(m => m.PortfolioV2Module), data: { breadcrumb: 'Portfolio' } },

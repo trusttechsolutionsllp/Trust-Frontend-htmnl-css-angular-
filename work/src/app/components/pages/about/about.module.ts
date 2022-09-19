@@ -11,16 +11,15 @@ import { ServiceComponent } from './service/service.component';
 import { TabsComponent } from './tabs/tabs.component';
 import { VideoComponent } from './video/video.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
-import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
-  declarations: [AboutComponent, AbouttextComponent, ServiceComponent, TabsComponent, VideoComponent, TestimonialsComponent, ContactComponent],
+  declarations: [AboutComponent, AbouttextComponent, ServiceComponent, TabsComponent, VideoComponent, TestimonialsComponent],
   imports: [
     CommonModule,
     AboutRoutingModule,
     SharedModule,
     NgbModule,
-    SlickCarouselModule
+    SlickCarouselModule,
   ]
 })
 export class AboutModule { }

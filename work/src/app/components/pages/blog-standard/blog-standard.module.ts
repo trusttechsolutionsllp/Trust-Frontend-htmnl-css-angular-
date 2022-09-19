@@ -6,12 +6,13 @@ import { NgxPaginationModule } from 'ngx-pagination';
 import { BlogStandardRoutingModule } from './blog-standard-routing.module';
 import { BlogStandardComponent } from './blog-standard.component';
 import { SharedModule } from '../../shared/shared.module';
-import { ContentComponent } from './content/content.component';
-import { ContactComponent } from './contact/contact.component';
+// import { ContentComponent } from './content/content.component';
+// import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
-  declarations: [BlogStandardComponent, ContentComponent, ContactComponent],
+  // declarations: [BlogStandardComponent, ContentComponent, ContactComponent],
+  declarations: [BlogStandardComponent],
   imports: [
     CommonModule,
     BlogStandardRoutingModule,

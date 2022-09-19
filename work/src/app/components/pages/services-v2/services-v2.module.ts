@@ -6,11 +6,11 @@ import { ServicesV2Component } from './services-v2.component';
 import { SharedModule } from '../../shared/shared.module';
 import { StyleoneComponent } from './styleone/styleone.component';
 import { StyletwoComponent } from './styletwo/styletwo.component';
-import { ContactComponent } from './contact/contact.component';
+// import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
-  declarations: [ServicesV2Component, StyleoneComponent, StyletwoComponent, ContactComponent],
+  declarations: [ServicesV2Component, StyleoneComponent, StyletwoComponent],
   imports: [
     CommonModule,
     ServicesV2RoutingModule,

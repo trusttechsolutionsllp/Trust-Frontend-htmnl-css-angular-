@@ -10,11 +10,31 @@
     </div>
     <!-- Contact Widget -->
     <div class="widget contact-widget">
-        <h4 class="widget-title">Conatct Us</h4>
-        <form>
-            <input type="text" placeholder="Your Email">
-            <textarea placeholder="Message"></textarea>
+        <h4 class="widget-title">Contact Us</h4>
+        <form [formGroup]="fcontactForm" (ngSubmit)="onSubmit(fcontactForm.value)" novalidate>
+            <div class="input-group mb-30">
+                <input type="email" placeholder="Your Email Address" name="to_email" id="to_email"
+                    formControlName="to_email" required>
+                <span class="icon"><i class="far fa-envelope-open"></i></span>
+                <span *ngIf="submitted && fcontactForm.controls.to_email.errors?.required">Please enter a valid
+                    email</span>
+            </div>
+            <div class="input-group textarea mb-30">
+                <textarea placeholder="Write Message" name="message_html" id="message_html"
+                    formControlName="message_html" required></textarea>
+                <span class="icon"><i class="far fa-pencil"></i></span>
+                <span *ngIf="submitted && fcontactForm.controls.message_html.errors?.required">Please enter a valid message</span>
+            </div>
             <button type="submit" class="main-btn main-btn-3">Send Message</button>
+
+            <div class="row" *ngIf="showMsg">
+                <div class="col-xs-12 quote-success">
+                    <p></p>
+                    <p class="alert alert-success">
+                        {{successMsg}}
+                    </p>
+                </div>
+            </div>
         </form>
     </div>
     <!-- CTA Widget -->

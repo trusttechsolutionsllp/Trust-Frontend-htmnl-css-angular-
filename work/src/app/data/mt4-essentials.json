@@ -2,8 +2,8 @@
     {
         "id": 1,
         "icon": "flaticon-chart",
-        "shadowicon": "assets/img/DM/SEO_Services.png",
-        "img": "assets/img/DM/SEO_Services.png",
+        "shadowicon": "assets/img/DM/mt41.png",
+        "img": "assets/img/DM/mt41.png",
         "title": "Trade Copier",
         "shortdesc": "Search Engine Optimization brings you one",
         "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
@@ -35,7 +35,7 @@
     {
         "id": 2,
         "icon": "flaticon-graph-1",
-        "shadowicon": "assets/img/DM/Content_Marketing.png",
+        "shadowicon": "assets/img/DM/mt42.png",
         "img": "assets/img/feature/02.jpg",
         "title": "App Client Rebate Plugin",
         "shortdesc": "This server-side plugin deposits rebates to clients' account at closing orders.",
@@ -68,7 +68,7 @@
     {
         "id": 3,
         "icon": "flaticon-diagram",
-        "shadowicon": "assets/img/DM/Branding.png",
+        "shadowicon": "assets/img/DM/mt43.png",
         "img": "assets/img/feature/03.jpg",
         "title": "Margin Leverage Plugin",
         "shortdesc": "It allows you to maintain the same margin requirement for symbols irrespective of the leverage.",
@@ -101,7 +101,7 @@
     {
         "id": 4,
         "icon": "flaticon-chart",
-        "shadowicon": "assets/img/DM/SEO_Services.png",
+        "shadowicon": "assets/img/DM/mt44.png",
         "img": "assets/img/DM/SEO_Services.png",
         "title": "Stop-out Hedger Plugin",
         "shortdesc": "It can be used to hedge trading positions when the account reaches the stop-out level.",
@@ -134,7 +134,7 @@
     {
         "id": 5,
         "icon": "flaticon-graph-1",
-        "shadowicon": "assets/img/DM/Content_Marketing.png",
+        "shadowicon": "assets/img/DM/mt45.png",
         "img": "assets/img/feature/02.jpg",
         "title": "Margin Reducer Plugin",
         "shortdesc": "This plugin allows you to reduce the margin requirement for symbols.",
@@ -167,7 +167,7 @@
     {
         "id": 6,
         "icon": "flaticon-diagram",
-        "shadowicon": "assets/img/DM/Branding.png",
+        "shadowicon": "assets/img/DM/mt46.png",
         "img": "assets/img/feature/03.jpg",
         "title": "Good Till Session",
         "shortdesc": "It allows you to delete any pending orders, and set the stop-loss and take-profit values to zero after the market is closed.",
@@ -200,7 +200,7 @@
     {
         "id": 7,
         "icon": "flaticon-graph-1",
-        "shadowicon": "assets/img/DM/Content_Marketing.png",
+        "shadowicon": "assets/img/DM/mt47.png",
         "img": "assets/img/feature/02.jpg",
         "title": "Custom Plugin",
         "shortdesc": "Made-to-order plugins created by our expert developers to suit client requirements.",
@@ -233,7 +233,7 @@
     {
         "id": 8,
         "icon": "flaticon-diagram",
-        "shadowicon": "assets/img/DM/Branding.png",
+        "shadowicon": "assets/img/DM/mt48.png",
         "img": "assets/img/feature/03.jpg",
         "title": "Max Spread Plugin",
         "shortdesc": "This plugin helps you set the maximum value of the floating spread.",
@@ -265,9 +265,10 @@
     },
     {
         "id": 9,
-        "image": "assets/img/DM/dm_1.jpg",
-        "title": "PPC",
-        "shortdesc": "By continuous monitoring, testing and research we assure improvements in your paid search campaigns.",
+        "image": "assets/img/DM/mt4_f1.jpg",
+        "title": "MT4 Whitelabel Solution",
+        "shortdesc": "MT4 platform customized to suit your brand",
+        "shortdesc2": "Download link for your website and email distribution",
         "description": "By continuous monitoring, testing and research we assure improvements in your paid search campaigns.",
         "notes": [
             "Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem enim ad minima veniam quis nostrum",
@@ -296,9 +297,10 @@
     },
     {
         "id": 10,
-        "image": "assets/img/DM/dm_2.jpg",
-        "title": "Affiliated Marketing",
-        "shortdesc": "We have developed a ‘pay for performance’ model wherein, the merchant does not sustain any marketing expense unless a result is generated.",
+        "image": "assets/img/DM/mt4_f2.jpg",
+        "title": "Innovative Technology",
+        "shortdesc": "Download link for your website and email distribution",
+        "shortdesc2": "MetaTrader Manager to view your client’s information, account details & trades",
         "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
         "notes": [
             "Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem enim ad minima veniam quis nostrum",
@@ -327,9 +329,10 @@
     },
     {
         "id": 11,
-        "image": "assets/img/DM/dm_3.jpg",
-        "title": "Social Media Marketing",
-        "shortdesc": "With more and more people connecting digitally, social media is the most fitting platform for content sharing and promotions.",
+        "image": "assets/img/DM/mt4_f3.jpg",
+        "title": "Client Support",
+        "shortdesc": "We provide customers with Round-the-clock technical support featuring experts",
+        "shortdesc2": "MT4 Server hosting",
         "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
         "notes": [
             "Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem enim ad minima veniam quis nostrum",
