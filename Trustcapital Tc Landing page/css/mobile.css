@@ -330,6 +330,9 @@
     .app_link {
         text-align: center;
     }
+    .email_lbl {
+        margin-top: 26px;
+    }
 }
 
 .longEnough {
