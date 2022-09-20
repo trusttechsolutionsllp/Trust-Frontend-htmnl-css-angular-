@@ -11794,14 +11794,14 @@ p {
 }
 .form_outer .tab_outer .tab_right .tab-content-main .red {
   color: #FF0000;
-  text-align: right;
+  text-align: left;
 }
 .form_outer .tab_outer .tab_right .tab-content-main .green {
   color: #00A54F;
-  text-align: right;
+  text-align: left;
 }
 .form_outer .tab_outer .tab_right .tab-content-main .text-r {
-  text-align: right;
+  text-align: left;
 }
 
 .nav-pills .nav-link.active {
@@ -11823,7 +11823,7 @@ li.nav-item {
 
 .ch_outer {
   background: url(../../images/shape.png) no-repeat;
-  background-position: right 0% bottom 54%;
+  background-position: left -12% bottom 60%;
   padding-top: 130px;
   background-color: #fff;
 }
@@ -11897,6 +11897,7 @@ li.nav-item {
 .footer_outer {
   background-color: #fff;
   padding: 100px 0 80px;
+  direction: ltr;
 }
 .footer_outer .break_3 {
   border-top: 1px solid #252B37;

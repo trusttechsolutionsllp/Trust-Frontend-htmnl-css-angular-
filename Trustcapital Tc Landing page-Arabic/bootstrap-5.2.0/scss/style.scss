@@ -155,14 +155,14 @@ p{
                 }
                 .red{
                     color:#FF0000;
-                    text-align: right;
+                    text-align: left;
                 }
                 .green{
                     color: #00A54F;
-                    text-align: right;
+                    text-align: left;
                 }
                 .text-r{
-                    text-align: right;
+                    text-align: left;
                 }
             }
         }
@@ -188,7 +188,7 @@ li.nav-item {
 
 .ch_outer{
     background: url(../../images/shape.png) no-repeat;
-    background-position: right 0% bottom 54%;
+    background-position: left -12% bottom 60%;
     padding-top: 130px;
     background-color: #fff;
     h2{
@@ -262,6 +262,7 @@ li.nav-item {
 .footer_outer{
     background-color: #fff;
     padding: 100px 0 80px;
+    direction: ltr;
     .break_3{
         border-top: 1px solid #252B37;
         border-bottom: 1px solid #252B37;
