@@ -9,13 +9,13 @@ body{
 
 }
 
-@for $i from 10 through 50{
+@for $i from 10 through 100{
     .m#{$i} {
         margin-bottom: #{$i};
     }
 }
 
-@for $i from 10 through 50{
+@for $i from 10 through 100{
     .m_t#{$i} {
         margin-top: #{$i};
     }
@@ -182,9 +182,76 @@ li.nav-item {
 }
 
 .ch_outer{
-    background: url(../../images/shape.png) no-repeat right bottom;
+    background: url(../../images/shape.png) no-repeat;
+    background-position: right 0% bottom 54%;
     padding-top: 130px;
     background-color: #fff;
+    h2{
+        font-size: 45px;
+        font-weight: 600;
+        color: #1B2A57;
+        line-height: 65px;
+    }
+    .ch_in{
+        background: #FFFFFF;
+        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+        padding: 30px;
+        margin-bottom: 30px;
+        h3{
+            font-size: 20px;
+            font-weight: 500;
+            color: #FF8A00;
+            line-height: 20px;
+            height: 40px;
+        }
+        p{
+            font-size: 15px;
+            font-weight: 400;
+            color: #989898;
+            line-height: 24px;
+            margin-bottom: 0px;
+            height: 70px;
+        }
+    }
+}
+
+.contact_outer{
+    padding: 112px 0;
+    background-color: #FBFBFB;
+    h2{
+        font-size: 45px;
+        font-weight: 600;
+        color: #1B2A57;
+        line-height: 45px;
+    }
+    .bg_contact{
+        background: #FFFFFF;
+        border-radius: 8px;
+        padding: 30px;
+        min-height: 362px;
+        h3{
+            font-size: 20px;
+            font-weight: 600;
+            color: #1B2A57;
+            line-height: 20px;
+        }
+        p{
+            font-size: 15px;
+            font-weight: 400;
+            color: #989898;
+            line-height: 22px;
+        }
+        h4{
+            font-size: 15px;
+            font-weight: 500;
+            color: #1B2A57; 
+        }
+        .break_2{
+            border-bottom: 1px solid #d1d1d1;
+            padding-bottom: 25px;
+        }
+    }
 }
     
 
