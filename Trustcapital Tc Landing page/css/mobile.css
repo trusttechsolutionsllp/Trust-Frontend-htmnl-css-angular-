@@ -331,3 +331,14 @@
         text-align: center;
     }
 }
+
+.longEnough {
+    max-height: 220px;
+    overflow: auto;
+}
+.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #000;
+    background-color: rgba(104, 110, 127, 0.4)!important;
+    filter: "alpha(opacity=40)";
+    -ms-filter: "alpha(opacity=40)";
+}
