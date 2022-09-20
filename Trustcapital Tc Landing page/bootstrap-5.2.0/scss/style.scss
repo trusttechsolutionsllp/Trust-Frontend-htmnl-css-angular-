@@ -9,6 +9,11 @@ body{
 
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 @for $i from 10 through 100{
     .m#{$i} {
         margin-bottom: #{$i};
@@ -253,6 +258,69 @@ li.nav-item {
         }
     }
 }
+
+.footer_outer{
+    background-color: #fff;
+    padding: 120px 0;
+    .break_3{
+        border-top: 1px solid #252B37;
+        border-bottom: 1px solid #252B37;
+        padding: 50px 0 60px 0;
+    }
+    h3{
+        font-size: 17px;
+        font-weight: 600;
+        color: #1B2A57;
+    }
+    ul{
+        list-style: none;
+        padding: 0;
+        li{
+            font-size: 15px;
+            font-weight: 500;
+            padding-bottom: 15px;
+            a{
+                color: #989898;
+                text-decoration: none;
+                &:hover{
+                    color: #d4d4d4;
+                }
+            }
+        }
+    }
+    .sm_outer{
+        margin-top: 20px;
+        span{
+            margin-right: 25px;
+        }
+    }
+
+    .app_link{
+        span{
+            margin-right: 25px;
+            font-size: 15px;
+            font-weight: 600;
+            img{
+                margin-right: 5px;
+            }
+            a{
+                color: #1B2A57;
+                text-decoration: none;
+                border-bottom: 1px solid #1B2A57;
+            }
+        }
+    }
+    .copy_r{
+        text-align: center;
+        p{
+            font-size: 15px;
+            font-weight: 400;
+            color: #989898;
+            line-height: 25px;
+        }
+    }
+}
+
     
 
 

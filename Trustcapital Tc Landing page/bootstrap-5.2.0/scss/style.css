@@ -10929,6 +10929,11 @@ body {
   overflow-x: hidden;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .m10 {
   margin-bottom: 10;
 }
@@ -11887,4 +11892,63 @@ li.nav-item {
 .contact_outer .bg_contact .break_2 {
   border-bottom: 1px solid #d1d1d1;
   padding-bottom: 25px;
+}
+
+.footer_outer {
+  background-color: #fff;
+  padding: 120px 0;
+}
+.footer_outer .break_3 {
+  border-top: 1px solid #252B37;
+  border-bottom: 1px solid #252B37;
+  padding: 50px 0 60px 0;
+}
+.footer_outer h3, .footer_outer .h3 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #1B2A57;
+}
+.footer_outer ul {
+  list-style: none;
+  padding: 0;
+}
+.footer_outer ul li {
+  font-size: 15px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+.footer_outer ul li a {
+  color: #989898;
+  text-decoration: none;
+}
+.footer_outer ul li a:hover {
+  color: #d4d4d4;
+}
+.footer_outer .sm_outer {
+  margin-top: 20px;
+}
+.footer_outer .sm_outer span {
+  margin-right: 25px;
+}
+.footer_outer .app_link span {
+  margin-right: 25px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.footer_outer .app_link span img {
+  margin-right: 5px;
+}
+.footer_outer .app_link span a {
+  color: #1B2A57;
+  text-decoration: none;
+  border-bottom: 1px solid #1B2A57;
+}
+.footer_outer .copy_r {
+  text-align: center;
+}
+.footer_outer .copy_r p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #989898;
+  line-height: 25px;
 }/*# sourceMappingURL=style.css.map */
