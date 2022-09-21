@@ -3,7 +3,7 @@
 
 body{
     background: #F8F7F3;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Cairo', sans-serif;
     font-size: 15px;
     overflow-x: hidden;
 
@@ -50,7 +50,7 @@ p{
         font-size: 74px;
         font-weight: 700;
         color: #fff;
-        line-height: 84px;
+        line-height: 92px;
         span{
             color: #1BC8FF;
         }
@@ -115,10 +115,10 @@ p{
             font-size: 22px;
             font-weight: 500;
             color: #fff;
-            text-align: left;
+            text-align: right;
             padding: 0 25px;
             span{
-                float: right;
+                float: left;
                 padding-top: 8px;
             }
         }
@@ -127,7 +127,7 @@ p{
     .tab_outer{
         margin-top:105px;
         h2{
-            font-size: 45px;
+            font-size: 37px;
             font-weight: 600;
             color: #1B2A57;
             line-height: 65px;
@@ -188,7 +188,7 @@ li.nav-item {
 
 .ch_outer{
     background: url(../../images/shape.png) no-repeat;
-    background-position: left -12% bottom 60%;
+    background-position: left -31% bottom 60%;
     padding-top: 130px;
     background-color: #fff;
     h2{
@@ -211,10 +211,10 @@ li.nav-item {
             height: 40px;
         }
         p{
-            font-size: 15px;
+            font-size: 14px;
             font-weight: 400;
             color: #989898;
-            line-height: 24px;
+            line-height: 20px;
             margin-bottom: 0px;
             height: 70px;
         }

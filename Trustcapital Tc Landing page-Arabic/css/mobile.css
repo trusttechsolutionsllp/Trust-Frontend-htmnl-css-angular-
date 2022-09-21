@@ -11,7 +11,7 @@
         line-height: 70px;
     }
     .form_outer .tab_outer h2, .form_outer .tab_outer .h2 {
-        font-size: 40px;
+        font-size: 34px;
         line-height: 60px;
     }
     p {
@@ -344,4 +344,23 @@
     background-color: rgba(104, 110, 127, 0.4)!important;
     filter: "alpha(opacity=40)";
     -ms-filter: "alpha(opacity=40)";
+}
+
+.intl-tel-input.allow-dropdown .flag-container, .intl-tel-input.separate-dial-code .flag-container {
+    left: auto!important;
+    right: inherit!important;
+}
+
+.intl-tel-input .selected-flag .iti-arrow {
+    right: 34px!important;
+}
+
+.intl-tel-input .selected-flag {
+    padding: 0 8px 0 0!important;
+}
+
+.intl-tel-input.allow-dropdown input, .intl-tel-input.allow-dropdown input[type=text], .intl-tel-input.allow-dropdown input[type=tel], .intl-tel-input.separate-dial-code input, .intl-tel-input.separate-dial-code input[type=text], .intl-tel-input.separate-dial-code input[type=tel] {
+    padding-right: 52px!important;
+    padding-left: 6px!important;
+    margin-left: 0;
 }
