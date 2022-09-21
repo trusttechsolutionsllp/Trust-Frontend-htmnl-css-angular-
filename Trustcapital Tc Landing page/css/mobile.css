@@ -16,7 +16,7 @@
     }
     p {
         font-size: 17px;
-        line-height: 28px;
+        line-height: 23px;
     }
     .form_outer .form_in label {
         font-size: 14px;
@@ -26,7 +26,6 @@
         padding-bottom: 74px;
     }
     .nav-pills .nav-link {
-        border-radius: 0 !important;
         font-size: 20px;
         font-weight: 500;
         color: #989898;
@@ -242,6 +241,15 @@
     }
 }
 
+@media (max-width:767px){
+    .nav-pills {
+        justify-content: center;
+    }
+    .nav-pills .nav-link {
+        margin: 0 10px 10px;
+    }
+}
+
 @media (max-width:575px){
     .container-fluid-main {
         padding-left: 15px;
@@ -253,7 +261,7 @@
     }
     .banner_outer h1, .banner_outer .h1 {
         font-size: 30px;
-        line-height: 40px;
+        line-height: 33px;
     }
     .m20 {
         margin-bottom: 12px;
@@ -332,6 +340,13 @@
     }
     .email_lbl {
         margin-top: 26px;
+    }
+    
+}
+
+@media (max-width:378px){
+    .form_outer .tab_outer .tab_right .tab-content-main td {
+        font-size: 11px;
     }
 }
 

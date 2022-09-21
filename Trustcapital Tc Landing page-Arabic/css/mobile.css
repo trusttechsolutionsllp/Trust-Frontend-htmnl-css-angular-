@@ -343,6 +343,12 @@
     }
 }
 
+@media (max-width:378px){
+    .form_outer .tab_outer .tab_right .tab-content-main td {
+        font-size: 11px;
+    }
+}
+
 .longEnough {
     max-height: 220px;
     overflow: auto;

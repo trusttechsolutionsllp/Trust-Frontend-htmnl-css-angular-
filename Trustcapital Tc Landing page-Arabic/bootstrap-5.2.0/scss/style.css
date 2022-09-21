@@ -11796,13 +11796,13 @@ p {
   color: #EB5757;
   background: #fbd5d5;
   border-radius: 16px;
-  padding: 6px;
+  padding: 3px 10px;
 }
 .form_outer .tab_outer .tab_right .tab-content-main .green {
   color: #219653;
   background: #c9e7d6;
   border-radius: 16px;
-  padding: 6px;
+  padding: 3px 10px;
 }
 .form_outer .tab_outer .tab_right .tab-content-main .text-r {
   text-align: left;
