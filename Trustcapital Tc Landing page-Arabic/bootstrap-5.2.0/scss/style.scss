@@ -127,13 +127,13 @@ p{
     .tab_outer{
         margin-top:105px;
         h2{
-            font-size: 37px;
-            font-weight: 600;
+            font-size: 38px;
+            font-weight: 700;
             color: #1B2A57;
             line-height: 65px;
         }
         .tab_right{
-            padding-left: 100px;
+            padding-left: 15px;
             .tab-in{
                 background: #FFFFFF;
                 border-radius: 10px;
@@ -148,18 +148,22 @@ p{
                     text-align: center;
                 }
                 td{
-                    font-size: 15px;
-                    font-weight: 500;
+                    font-size: 14px;
+                    font-weight: 400;
                     color: #989898;
                     text-align: center;
                 }
                 .red{
-                    color:#FF0000;
-                    text-align: left;
+                    color: #EB5757;
+                    background:#fbd5d5;
+                    border-radius: 16px;
+                    padding: 6px;
                 }
                 .green{
-                    color: #00A54F;
-                    text-align: left;
+                    color: #219653;
+                    background: #c9e7d6;
+                    border-radius: 16px;
+                    padding: 6px;
                 }
                 .text-r{
                     text-align: left;
@@ -169,22 +173,35 @@ p{
     }
 }
 
+td.pull_right {
+    text-align: left!important;
+}
+
+.table > :not(caption) > * > * {
+    padding: 0.8rem 0.5rem!important;
+}
 .nav-pills .nav-link.active{
-    background:none!important;
-    border-bottom: 2px solid #00A54F;
-    color: #00A54F;
+    background: #00A54F !important;
+    /* border-bottom: 2px solid #00A54F; */
+    color: #fdfdfd;
+    border-radius: 30px!important;
 }
 
 .nav-pills .nav-link{
-    border-radius: 0 !important;
-    font-size: 25px;
-    font-weight: 500;
-    color:#989898;
+    font-size: 17px;
+    font-weight: 400;
+    background: #F5F5F5 !important;
+    color: #989898;
+    border-radius: 30px !important;
 }
 
-li.nav-item {
-    width: 33%;
+.nav-pills{
+    justify-content: space-between;
 }
+
+
+
+
 
 .ch_outer{
     background: url(../../images/shape.png) no-repeat;
