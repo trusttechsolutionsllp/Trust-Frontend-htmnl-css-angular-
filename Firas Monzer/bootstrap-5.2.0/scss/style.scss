@@ -174,6 +174,12 @@ body{
     }
 }
 
+@mixin headingStyle{
+    font-family: 'fonde';
+    font-weight: 400;
+    color: #fff;
+}
+
 .link{
     background: #00A54F;
     font-family: 'Mulish';
@@ -255,13 +261,11 @@ header{
     width: 100%;
     
     h1 {
+      @include heeadingStyle;
       display: block;
-      font-family: 'fonde';
       font-size: 100px;
-      font-weight: 400;
       letter-spacing: -.05em;
       width: 100%;
-      color: white;
       opacity: 1;
       .head-1{
         display: contents;
@@ -272,13 +276,11 @@ header{
     }
 
     h2 {
+        @include heeadingStyle;
         display: block;
-        font-family: 'fonde';
         font-size: 60px;
-        font-weight: 400;
         letter-spacing: -.05em;
         width: 100%;
-        color: white;
         opacity: 1;
       }
     
@@ -332,10 +334,8 @@ header{
 
   .about{
     .head-h2{
-        font-family: 'fonde';
+        @include heeadingStyle;
         font-size: 55px;
-        font-weight: 400;
-        color: #fff;
     }
   }
 
@@ -373,6 +373,10 @@ header{
     left: -100px;
 }
 
+.hero-learn {
+    height: 70vh;
+}
+
 .learn_right {
     margin-top: 100px;
 }
@@ -388,9 +392,9 @@ header{
     height: 90vh;
     background-position: 0% 0%;
     overflow: hidden;
-  }
+}
   
-  .hero__fore_2 {
+.hero__fore_2 {
     position: absolute;
     height: 45%;
     max-height: 300px;
@@ -407,24 +411,31 @@ header{
       object-fit:cover;
       object-position: top center;
     }
-  }
+}
   
-  .hero-bg-2 {
+.hero-bg-2 {
     position: absolute;
     top: 10vh;
     z-index: 1;
     width: 100%;
     
     h2 {
+        @include heeadingStyle;
       display: block;
-      font-family: 'fonde';
       font-size: 60px;
-      font-weight: 400;
       letter-spacing: -.05em;
       width: 100%;
-      color: white;
       opacity: 1;
     }
-  }
+}
+
+.get_in{
+    padding: 60px 0px;
+    h2{
+        @include heeadingStyle;
+        font-size: 55px;
+        margin-bottom: 50px;
+    }
+}
 
   
