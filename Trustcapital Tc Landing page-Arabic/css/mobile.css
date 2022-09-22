@@ -341,6 +341,12 @@
     .email_lbl {
         margin-top: 26px;
     }
+    .form_outer .tab_outer .tab_right .tab-content-main .green {
+        width: 80px;
+    }
+    .form_outer .tab_outer .tab_right .tab-content-main .red {
+        width: 80px;
+    }
 }
 
 @media (max-width:378px){
