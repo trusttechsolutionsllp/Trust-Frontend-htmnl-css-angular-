@@ -251,6 +251,9 @@
 }
 
 @media (max-width:575px){
+    .banner_outer {
+        background-position: left top;
+    }
     .container-fluid-main {
         padding-left: 15px;
         padding-right: 15px;

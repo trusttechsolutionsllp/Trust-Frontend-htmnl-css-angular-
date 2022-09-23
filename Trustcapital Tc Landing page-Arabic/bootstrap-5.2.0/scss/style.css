@@ -11690,7 +11690,11 @@ p {
   line-height: 92px;
 }
 .banner_outer h1 span, .banner_outer .h1 span {
-  color: #FAFF00;
+  color: #1BC8FF;
+}
+
+.logo_arab {
+  direction: initial;
 }
 
 .form_outer {
