@@ -603,6 +603,137 @@ box:before{
         color: #fff;
     }
 }
+
+
+
+//Upcoming Events - Page
+
+.event_outer{
+    padding-top: 50px;
+    padding-bottom: 130px;
+    h2{
+        @include headingStyle;
+        font-size: 55px;
+        line-height: 55px;
+    }
+    p{
+        font-family: 'Mulish';
+        font-size: 17px;        
+        font-weight: 400;
+        line-height: 26px;
+        color: #969696;
+    }
+    .event_break{
+        border-bottom: 1px solid #969696;
+        padding-bottom: 90px;
+        margin-bottom: 90px;
+    }
+    .event{
+        img.img_event{
+            width:100%;
+            border-radius: 10px;
+        }
+        .event_right{
+            padding-left:60px;
+            a.webinar{
+                background-color: #fff;
+                font-family: "Mulish";
+                font-size: 18px;
+                font-weight: 700;
+                color: #04112A;
+                width: 116px;
+                height: 42px;
+                border-radius: 7px;
+                text-align: center;
+                display: inline-block;
+                line-height: 42px;
+                text-decoration: none;
+                margin-bottom: 15px;
+                text-transform: uppercase;
+                &:hover{
+                    background: #1A2B36;
+                    color: #fff;
+                }
+            }
+            h3{
+                font-family: "Mulish";
+                font-size: 42px;
+                font-weight: 700;
+                color: #fff;
+                line-height: 50px;
+            }
+            .dt_div{
+                font-family: "Mulish";
+                font-size: 17px;
+                font-weight: 500;
+                color: #969696;
+                span img{
+                    margin-top: -4px;
+                    margin-right: 5px;
+                }
+                .line:after{
+                    content: "|";
+                    padding: 0 10px;
+                    color: #fff;
+                }
+            }
+            .zoom{
+                font-family: "Mulish";
+                font-size: 17px;
+                font-weight: 500;
+                color: #fff;
+            }
+            .speaker_outer {
+                display: flex;
+                .speaker{
+                    display: flex;
+                    margin-right: 30px;
+                    span img{
+                        border-radius: 50%;
+                        margin-right: 10px;
+                    }
+                    h4{
+                        font-family: "Mulish";
+                        font-size: 26px;
+                        font-weight: 700;
+                        color:#00A54F;
+                        span{
+                            font-family: "Mulish";
+                            font-size: 16px;
+                            font-weight: 400;
+                            color:#fff;
+                        }
+                    }
+                }
+            }
+            a.speaker_reg{
+                background-color: #00A54F;
+                font-family: "Mulish";
+                font-size: 20px;
+                font-weight: 700;
+                color: #fff;
+                width: 240px;
+                height: 65px;
+                border-radius: 7px;
+                text-align: center;
+                display: inline-block;
+                line-height: 65px;
+                text-decoration: none;
+                text-transform: uppercase;
+                margin-top:30px;
+                &:hover{
+                    background: #1A2B36;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+.group{
+    background: url(../../images/group.png) no-repeat right 28% top 0px;
+}
+
   
 
 
