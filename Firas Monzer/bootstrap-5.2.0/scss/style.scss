@@ -734,7 +734,59 @@ box:before{
     background: url(../../images/group.png) no-repeat right 28% top 0px;
 }
 
-  
+
+
+//Blog - Page
+
+.blog-box{
+    margin-bottom: 30px;
+}
+.blog_outer{
+    p{
+        font-family: 'Mulish';
+        font-size: 17px;        
+        font-weight: 400;
+        line-height: 26px;
+        color: #969696;
+    }
+    .blog{
+        img{
+            width: 100%;
+            margin-bottom: 20px;
+            border-radius: 13px;
+        }
+        .blog_bot{
+            display: flex;
+            span{
+                margin-left: 10px;
+                min-width: 130px;
+                font-family: "Mulish";
+                font-size: 16px;
+                font-weight: 400;
+                color: #9E9EA6;
+                text-align: right;
+            }
+            .date::before{
+                content:"";
+                background:url(../../images/calendar.png) no-repeat;
+                position: absolute;
+                width: 22px;
+                height: 22px;
+                margin-left: -30px;
+            }
+            h3{
+                a{
+                    font-family: "Mulish";
+                    font-size: 21px;
+                    font-weight: 600;
+                    color: #fff;
+                    line-height: 30px;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
 
 
     
