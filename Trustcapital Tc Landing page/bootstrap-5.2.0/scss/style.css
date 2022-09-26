@@ -11916,13 +11916,25 @@ p {
   background: #FFFFFF;
   border-radius: 8px;
   padding: 30px;
-  min-height: 362px;
+  min-height: 452px;
 }
 .contact_outer .bg_contact h3, .contact_outer .bg_contact .h3 {
   font-size: 20px;
   font-weight: 600;
   color: #1B2A57;
   line-height: 20px;
+}
+.contact_outer .bg_contact .country_th {
+  display: flex;
+}
+.contact_outer .bg_contact .country_th .ph_flg svg {
+  margin-top: -26px;
+  margin-left: -26px;
+}
+.contact_outer .bg_contact .break_4 {
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 0px;
+  margin-bottom: 14px;
 }
 .contact_outer .bg_contact p {
   font-size: 15px;
