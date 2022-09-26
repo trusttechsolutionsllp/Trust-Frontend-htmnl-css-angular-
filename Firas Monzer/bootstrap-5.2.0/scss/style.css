@@ -12359,4 +12359,35 @@ button.btn_load:hover {
   color: #fff;
   line-height: 30px;
   text-decoration: none;
+}
+
+.recent-posts-outer .blog_bot_detl {
+  justify-content: space-between;
+}
+.recent-posts-outer .blog_bot_detl h3, .recent-posts-outer .blog_bot_detl .h3 {
+  font-family: "fonde";
+  font-weight: 400;
+  color: #fff;
+  font-size: 37px;
+  line-height: 49px;
+}
+.recent-posts-outer .blog_bot_detl .date_p {
+  padding-top: 12px;
+}
+.recent-posts-outer .blog_bot_detl ul {
+  padding: 0;
+  list-style: decimal;
+  margin-left: 18px;
+}
+.recent-posts-outer .blog_bot_detl ul li {
+  font-family: "Mulish";
+  font-size: 17px;
+  font-weight: 400;
+  color: #969696;
+  line-height: 38px;
+  padding-bottom: 10px;
+}
+.recent-posts-outer .recent-posts .r-post-left img {
+  border-radius: 10px;
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */

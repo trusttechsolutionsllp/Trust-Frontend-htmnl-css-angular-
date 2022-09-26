@@ -789,4 +789,41 @@ box:before{
 }
 
 
+
+//Blog Detail - Page
+
+
+.recent-posts-outer{
+    .blog_bot_detl{
+        justify-content: space-between;
+        h3{
+            @include headingStyle;
+            font-size: 37px;
+            line-height: 49px;
+        }
+        .date_p{
+            padding-top: 12px;
+        }
+        ul{
+            padding: 0;
+            list-style: decimal;
+            margin-left: 18px;
+            li{
+                font-family: "Mulish";
+                font-size: 17px;
+                font-weight: 400;
+                color: #969696;
+                line-height: 38px;
+                padding-bottom: 10px;
+            }
+        }
+    }
     
+    .recent-posts{
+        .r-post-left img {
+            border-radius: 10px;
+            width: 100%;
+        }
+    }
+}
+
