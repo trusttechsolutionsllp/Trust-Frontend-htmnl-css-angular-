@@ -104,7 +104,7 @@
                       </div>
                     </div>
                   </div>
-                  <button type="submit" class="btn btn-primary btn_submit m_t10">
+                  <button type="button" class="btn btn-primary btn_submit m_t10" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Submit
                     <span>
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
@@ -464,6 +464,30 @@
         </div>
       </section>
       <!-- Footer End-->
+
+      <!-- Thank you pop up start-->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog popup">
+          <div class="modal-content">
+            <div class="modal-header popup_in">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body popup">
+              <div class="text-center">
+                <img src="./images/thanku.png">
+              </div>
+              <div class="text-center m_t35">
+                <p>Thank you for registering. You will receive a confirmation email shortly.</p>
+              </div>
+            </div>
+            <!--<div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>-->
+          </div>
+        </div>
+      </div>
+    <!-- Thank you pop up start-->
     </div>
   </body>
 

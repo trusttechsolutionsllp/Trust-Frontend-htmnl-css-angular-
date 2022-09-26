@@ -32,7 +32,6 @@
     }
     .ch_outer .ch_in h3, .ch_outer .ch_in .h3 {
         font-size: 14px;
-        height: 40px;
     }
     .ch_outer {
         background-position: right -19% bottom 55%;
@@ -247,6 +246,14 @@
     }
     .nav-pills .nav-link {
         margin: 0 10px 10px;
+    }
+    .ch_outer .ch_in{
+        min-height: auto;
+        padding-bottom: 0px;
+    }
+    .ch_outer .ch_in p {
+        margin-bottom: 0px;
+        height: 50px;
     }
 }
 

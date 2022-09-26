@@ -11893,13 +11893,13 @@ td.pull_right {
   border-radius: 8px;
   padding: 30px;
   margin-bottom: 30px;
+  min-height: 270px;
 }
 .ch_outer .ch_in h3, .ch_outer .ch_in .h3 {
   font-size: 20px;
   font-weight: 500;
   color: #FF8A00;
   line-height: 20px;
-  height: 40px;
 }
 .ch_outer .ch_in p {
   font-size: 14px;
@@ -11924,13 +11924,25 @@ td.pull_right {
   background: #FFFFFF;
   border-radius: 8px;
   padding: 30px;
-  min-height: 362px;
+  min-height: 452px;
 }
 .contact_outer .bg_contact h3, .contact_outer .bg_contact .h3 {
   font-size: 20px;
   font-weight: 600;
   color: #1B2A57;
   line-height: 20px;
+}
+.contact_outer .bg_contact .country_th {
+  display: flex;
+}
+.contact_outer .bg_contact .country_th .ph_flg svg {
+  margin-top: -26px;
+  margin-right: -26px;
+}
+.contact_outer .bg_contact .break_4 {
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 0px;
+  margin-bottom: 14px;
 }
 .contact_outer .bg_contact p {
   font-size: 15px;
@@ -12006,4 +12018,22 @@ td.pull_right {
   font-weight: 400;
   color: #989898;
   line-height: 25px;
+}
+
+.popup {
+  background: #FFFFFF;
+  border-radius: 10px;
+  border: none;
+}
+.popup .popup_in {
+  border-bottom: none;
+}
+.popup .popup_in .btn-close {
+  border: 1px solid #000000;
+}
+.popup p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #0A0E10;
+  line-height: 21px;
 }/*# sourceMappingURL=style.css.map */
