@@ -63,7 +63,7 @@ function parallax() {
 				}
 				settings[index].scrollRatio = (settings[index].child.clientHeight - target.clientHeight) / (winH + target.clientHeight);
 			});
-		}, 500);
+		}, 50);
 	});
 
 	

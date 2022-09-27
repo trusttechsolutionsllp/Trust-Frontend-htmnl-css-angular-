@@ -212,6 +212,7 @@ header .navbar-expand-lg .nav-item a.nav-link.active{
     position: absolute;
     left: 10%;
     top: -1px;
+    z-index: -1;
 }
 
 header{
