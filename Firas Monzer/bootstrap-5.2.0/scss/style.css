@@ -11777,6 +11777,10 @@ body {
   margin-top: 100;
 }
 
+header .navbar-expand-lg .nav-item a.nav-link.active {
+  color: #fff !important;
+}
+
 .link {
   background: #00A54F;
   font-family: "Mulish";
@@ -12361,25 +12365,25 @@ button.btn_load:hover {
   text-decoration: none;
 }
 
-.recent-posts-outer .blog_bot_detl {
+.blog_bot_detl {
   justify-content: space-between;
 }
-.recent-posts-outer .blog_bot_detl h3, .recent-posts-outer .blog_bot_detl .h3 {
+.blog_bot_detl h3, .blog_bot_detl .h3 {
   font-family: "fonde";
   font-weight: 400;
   color: #fff;
   font-size: 37px;
   line-height: 49px;
 }
-.recent-posts-outer .blog_bot_detl .date_p {
+.blog_bot_detl .date_p {
   padding-top: 12px;
 }
-.recent-posts-outer .blog_bot_detl ul {
+.blog_bot_detl ul {
   padding: 0;
   list-style: decimal;
   margin-left: 18px;
 }
-.recent-posts-outer .blog_bot_detl ul li {
+.blog_bot_detl ul li {
   font-family: "Mulish";
   font-size: 17px;
   font-weight: 400;
@@ -12387,7 +12391,58 @@ button.btn_load:hover {
   line-height: 38px;
   padding-bottom: 10px;
 }
+
+.recent-posts-outer h4, .recent-posts-outer .h4 {
+  font-family: "fonde";
+  font-weight: 400;
+  color: #fff;
+  font-size: 25px;
+  line-height: 25px;
+}
 .recent-posts-outer .recent-posts .r-post-left img {
   border-radius: 10px;
   width: 100%;
+}
+.recent-posts-outer .r-post-right {
+  margin-left: 26px;
+}
+.recent-posts-outer .r-post-right h6, .recent-posts-outer .r-post-right .h6 {
+  font-family: "Mulish";
+  font-size: 12px;
+  font-weight: 400;
+}
+.recent-posts-outer .r-post-right .orange {
+  color: #E9605B;
+}
+.recent-posts-outer .r-post-right .blue {
+  color: #35A6B5;
+}
+.recent-posts-outer .r-post-right h5, .recent-posts-outer .r-post-right .h5 {
+  font-family: "Mulish";
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+.recent-posts-outer .r-post-right p {
+  font-family: "Mulish";
+  font-size: 14px;
+  font-weight: 400;
+  color: #969696;
+  line-height: 18px;
+}
+.recent-posts-outer .r-post-right a {
+  font-family: "Mulish";
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  display: inline-block;
+  text-decoration: underline;
+}
+.recent-posts-outer .r-post-right a:hover {
+  color: #71838f;
+}
+
+.blog_det_break {
+  border-bottom: 1px solid #E6E6E6;
+  padding-bottom: 50px;
 }/*# sourceMappingURL=style.css.map */

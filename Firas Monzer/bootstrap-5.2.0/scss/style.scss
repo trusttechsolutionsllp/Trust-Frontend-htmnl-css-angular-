@@ -185,6 +185,10 @@ body{
     color: #fff;
 }
 
+header .navbar-expand-lg .nav-item a.nav-link.active{
+    color: #fff!important;
+}
+
 .link{
     background: #00A54F;
     font-family: 'Mulish';
@@ -793,37 +797,85 @@ box:before{
 //Blog Detail - Page
 
 
-.recent-posts-outer{
-    .blog_bot_detl{
-        justify-content: space-between;
-        h3{
-            @include headingStyle;
-            font-size: 37px;
-            line-height: 49px;
-        }
-        .date_p{
-            padding-top: 12px;
-        }
-        ul{
-            padding: 0;
-            list-style: decimal;
-            margin-left: 18px;
-            li{
-                font-family: "Mulish";
-                font-size: 17px;
-                font-weight: 400;
-                color: #969696;
-                line-height: 38px;
-                padding-bottom: 10px;
-            }
+
+.blog_bot_detl{
+    justify-content: space-between;
+    h3{
+        @include headingStyle;
+        font-size: 37px;
+        line-height: 49px;
+    }
+    .date_p{
+        padding-top: 12px;
+    }
+    ul{
+        padding: 0;
+        list-style: decimal;
+        margin-left: 18px;
+        li{
+            font-family: "Mulish";
+            font-size: 17px;
+            font-weight: 400;
+            color: #969696;
+            line-height: 38px;
+            padding-bottom: 10px;
         }
     }
-    
+}
+.recent-posts-outer{
+    h4{
+        @include headingStyle;
+        font-size: 25px;
+        line-height: 25px;
+    }
     .recent-posts{
         .r-post-left img {
             border-radius: 10px;
             width: 100%;
         }
     }
+    .r-post-right{
+        margin-left:26px;
+        h6{
+            font-family: "Mulish";
+            font-size: 12px;
+            font-weight: 400;
+        }
+        .orange{
+            color: #E9605B;
+        }
+        .blue{
+            color: #35A6B5;
+        }
+        h5{
+            font-family: "Mulish";
+            font-size: 18px;
+            font-weight: 600;
+            color: #fff;
+        }
+        p{
+            font-family: "Mulish";
+            font-size: 14px;
+            font-weight: 400;
+            color: #969696;
+            line-height: 18px;
+        }
+        a{
+            font-family: "Mulish";
+            font-size: 13px;
+            font-weight: 600;
+            color: #fff;
+            display: inline-block;
+            text-decoration: underline;
+            &:hover{
+                color: #71838f;
+            }
+        }
+    }
 }
+.blog_det_break{
+    border-bottom: 1px solid #E6E6E6;
+    padding-bottom: 50px;
+}
+
 

@@ -37,10 +37,10 @@
                       <a class="nav-link" href="#">Upcoming Events</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Blog</a>
+                      <a class="nav-link" href="#">Blog</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Contact Me</a>
+                      <a class="nav-link active" aria-current="page" href="#">Contact Me</a>
                     </li>
                   </ul>
                 </div>
@@ -53,109 +53,6 @@
           <!-- Header stop-->
         </div>
       </div>
-      
-      <!-- Blog Start-->
-      <section class="mu_oter blog_outer">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <h2 class="m30">Blog</h2>
-              <p class="m45">
-                Stay up-to-date with the CoinMarketCap crypto calendar. We list all the major events in <br>
-                the crypto and blockchain ecosystems so that you can stay informed.
-              </p>
-            </div>
-            <div class="col-xxl-4 col-sm-6 col-xs-6 col-box blog-box">
-              <div class="blog">
-                <a href="#"><img src="./images/blog-1.jpg"></a>
-                <div class="blog_bot">
-                  <h3><a href="#">No Trust anymore in Crypto currencies</a></h3>
-                  <span class="date">12-10-2022</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-xxl-4 col-sm-6 col-xs-6 col-box blog-box">
-              <div class="blog">
-                <a href="#"><img src="./images/blog-2.jpg"></a>
-                <div class="blog_bot">
-                  <h3><a href="#">The Basics of Forex Trading</a></h3>
-                  <span class="date">12-10-2022</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-xxl-4 col-sm-6 col-xs-6 col-box blog-box">
-              <div class="blog">
-                <a href="#"><img src="./images/blog-3.jpg"></a>
-                <div class="blog_bot">
-                  <h3><a href="#">Latest news about marek</a></h3>
-                  <span class="date">12-10-2022</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-xxl-4 col-sm-6 col-xs-6 col-box blog-box">
-              <div class="blog">
-                <a href="#"><img src="./images/blog-4.jpg"></a>
-                <div class="blog_bot">
-                  <h3><a href="#">What is the most successful way to trade this period?</a></h3>
-                  <span class="date">12-10-2022</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-xxl-4 col-sm-6 col-xs-6 col-box blog-box">
-              <div class="blog">
-                <a href="#"><img src="./images/blog-5.jpg"></a>
-                <div class="blog_bot">
-                  <h3><a href="#">The latest developments and analysis on the dollar and digital currency</a></h3>
-                  <span class="date">12-10-2022</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-xxl-4 col-sm-6 col-xs-6 col-box blog-box">
-              <div class="blog">
-                <a href="#"><img src="./images/blog-6.jpg"></a>
-                <div class="blog_bot">
-                  <h3><a href="#">Latest news about marek</h3>
-                  <span class="date">12-10-2022</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-xxl-4 col-sm-6 col-xs-6 col-box blog-box">
-              <div class="blog">
-                <a href="#"><img src="./images/blog-4.jpg"></a>
-                <div class="blog_bot">
-                  <h3><a href="#">What is the most successful way to trade this period?</a></h3>
-                  <span class="date">12-10-2022</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-xxl-4 col-sm-6 col-xs-6 col-box blog-box">
-              <div class="blog">
-                <a href="#"><img src="./images/blog-5.jpg"></a>
-                <div class="blog_bot">
-                  <h3><a href="#">The latest developments and analysis on the dollar and digital currency</a></h3>
-                  <span class="date">12-10-2022</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-xxl-4 col-sm-6 col-xs-6 col-box blog-box">
-              <div class="blog">
-                <a href="#"><img src="./images/blog-6.jpg"></a>
-                <div class="blog_bot">
-                  <h3><a href="#">Latest news about marek</h3></a>
-                  <span class="date">12-10-2022</span>
-                </div>
-              </div>
-            </div>
-            
-            <div class="col-lg-12 text-center">
-              <button class="btn_load" id="more">Browse all blogs</button>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Blog END-->
 
       <!-- Get In Touch Start-->
       <section class="get_in">
@@ -230,33 +127,4 @@
   <script src="./js/ScrollTrigger.min.js"></script>
   <script src="./js/script.js"></script>
   <script src="./js/script_2.js"></script>
-  <script>
-    $(document).ready(function() {
-    $('.col-box').hide();
-    $('.col-box').each(function(index,value) {
-      if(index < 6) {
-        $(this).show();
-      }
-    });
-    if($('.col-box:hidden').length) {
-      $('#more').show();
-    }
-    if(!$('.col-box:hidden').length) {
-        $('#more').hide();
-      }
-    
-  });
-
-
-  $('#more').on('click', function() {
-      $('.col-box:hidden').each(function(index, value) {
-        if(index < 3) {
-          $(this).show();
-        }
-      });
-      if(!$('.col-box:hidden').length) {
-        $('#more').hide();
-      }
-  });
-  </script>
   </html>
