@@ -12339,6 +12339,7 @@ button.btn_load:hover {
 }
 .blog_outer .blog .blog_bot {
   display: flex;
+  justify-content: space-between;
 }
 .blog_outer .blog .blog_bot span {
   margin-left: 10px;
@@ -12446,4 +12447,8 @@ button.btn_load:hover {
 .blog_det_break {
   border-bottom: 1px solid #E6E6E6;
   padding-bottom: 50px;
+}
+
+.mob_open {
+  display: none;
 }/*# sourceMappingURL=style.css.map */

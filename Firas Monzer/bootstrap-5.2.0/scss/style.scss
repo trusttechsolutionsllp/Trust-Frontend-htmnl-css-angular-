@@ -762,6 +762,7 @@ box:before{
         }
         .blog_bot{
             display: flex;
+            justify-content: space-between;
             span{
                 margin-left: 10px;
                 min-width: 130px;
@@ -877,6 +878,9 @@ box:before{
 .blog_det_break{
     border-bottom: 1px solid #E6E6E6;
     padding-bottom: 50px;
+}
+.mob_open{
+    display: none;
 }
 
 
