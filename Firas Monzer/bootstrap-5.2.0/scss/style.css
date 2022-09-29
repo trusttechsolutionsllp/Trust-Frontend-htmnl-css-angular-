@@ -12115,7 +12115,11 @@ header .navbar-collapse {
   color: #969696;
   font-weight: 500;
 }
-.footer .footer_in .col-f span {
+.footer .footer_in .col-f a {
+  color: #969696;
+  text-decoration: none;
+}
+.footer .footer_in .col-f a span {
   margin-right: 5px;
 }
 
