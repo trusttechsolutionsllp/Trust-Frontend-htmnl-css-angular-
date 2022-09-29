@@ -12398,6 +12398,20 @@ button.btn_load:hover {
   padding-bottom: 10px;
 }
 
+ol {
+  padding: 0;
+  list-style: decimal;
+  margin-left: 18px;
+}
+ol li {
+  font-family: "Mulish";
+  font-size: 17px;
+  font-weight: 400;
+  color: #969696;
+  line-height: 38px;
+  padding-bottom: 10px;
+}
+
 .recent-posts-outer h4, .recent-posts-outer .h4 {
   font-family: "fonde";
   font-weight: 400;
@@ -12405,12 +12419,16 @@ button.btn_load:hover {
   font-size: 25px;
   line-height: 25px;
 }
+.recent-posts-outer .recent-posts .r-post-left {
+  width: 30%;
+}
 .recent-posts-outer .recent-posts .r-post-left img {
   border-radius: 10px;
   width: 100%;
 }
 .recent-posts-outer .r-post-right {
   margin-left: 26px;
+  width: 70%;
 }
 .recent-posts-outer .r-post-right h6, .recent-posts-outer .r-post-right .h6 {
   font-family: "Mulish";

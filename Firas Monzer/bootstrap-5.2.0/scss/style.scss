@@ -828,6 +828,19 @@ box:before{
         }
     }
 }
+ol{
+    padding: 0;
+    list-style: decimal;
+    margin-left: 18px;
+    li{
+        font-family: "Mulish";
+        font-size: 17px;
+        font-weight: 400;
+        color: #969696;
+        line-height: 38px;
+        padding-bottom: 10px;
+    }
+}
 .recent-posts-outer{
     h4{
         @include headingStyle;
@@ -835,13 +848,17 @@ box:before{
         line-height: 25px;
     }
     .recent-posts{
-        .r-post-left img {
-            border-radius: 10px;
-            width: 100%;
+        .r-post-left {
+            width: 30%;
+            img {
+                border-radius: 10px;
+                width: 100%;
+            }
         }
     }
     .r-post-right{
         margin-left:26px;
+        width: 70%;
         h6{
             font-family: "Mulish";
             font-size: 12px;

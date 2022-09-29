@@ -671,6 +671,9 @@
         max-height: 180px;
         object-fit: cover;
     }
+    .recent-posts-outer .recent-posts .r-post-left {
+        width: 100%;
+    }
 }
 
 @media (max-width:417px){
